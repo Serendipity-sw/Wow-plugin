@@ -1,0 +1,9 @@
+
+MasterPlanAG = {
+	["凤凰之神"] = {
+		["情伤难愈"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Horde",
+		},
+	},
+}

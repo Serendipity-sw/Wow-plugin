@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/165/876/62/62/636694721705083168.png",
+			"name": "ElvUI_WindTools",
+			"fileName": "elvui_windtools",
+			"description": "Enhanced features for ElvUI."
+		}
+	],
+	"ipMap": [],
+	"version": "1.3.6^^2018-12-27 20:17:03",
+	"mapping": "ElvUI_WindTools"
+}

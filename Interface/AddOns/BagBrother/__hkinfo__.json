@@ -1,0 +1,19 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/137/252/62/62/636513747773501120.png",
+			"name": "Bagnon",
+			"fileName": "bagnon",
+			"downloadCount": "42,965,846",
+			"description": "All in one displays for your inventory, bank, and keyring"
+		}
+	],
+	"ipMap": [
+		"Bagnon_Config",
+		"Bagnon_VoidStorage",
+		"Bagnon_GuildBank"
+	],
+	"version": "8.0.7^^2018-10-15 13:22:53",
+	"mapping": "Bagnon"
+}

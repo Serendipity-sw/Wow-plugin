@@ -1,0 +1,21 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/55/451/62/62/636141352218161611.jpg",
+			"name": "Tidy Plates",
+			"fileName": "tidy-plates",
+			"description": "Tidy Plates"
+		}
+	],
+	"ipMap": [
+		"TidyPlatesHub",
+		"TidyPlatesWidgets",
+		"TidyPlates_Graphite",
+		"TidyPlates_Grey",
+		"TidyPlates_Neon",
+		"TidyPlates_Quatre"
+	],
+	"version": "6.19.3",
+	"mapping": "Tidy Plates"
+}

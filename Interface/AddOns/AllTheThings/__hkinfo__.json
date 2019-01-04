@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/174/668/62/62/636752636719050970.png",
+			"name": "ALL THE THINGS",
+			"fileName": "all-the-things",
+			"description": "Addon for Tracking Collections &amp; Account Completion"
+		}
+	],
+	"ipMap": [],
+	"version": "1.8.1",
+	"mapping": "ALL THE THINGS"
+}

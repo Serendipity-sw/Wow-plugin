@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<script file="auraIconSpacing.lua"/>
+	<script file="auraIconText.lua"/>
+	<script file="debuffsAlert.lua"/>
+	<script file="health.lua"/>
+	<script file="castbar.lua"/>
+	<script file="powerbar.lua"/>
+	<script file="power.lua"/>
+	<script file="roleIcons.lua"/>
+	<script file="tags.lua"/>
+</Ui>

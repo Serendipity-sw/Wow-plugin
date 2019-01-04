@@ -1,0 +1,14 @@
+{
+	"ipMap": [],
+	"version": "0.16.1",
+	"mapping": "Angry Keystones",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/63/982/62/62/636148966413496777.png",
+			"name": "Angry Keystones",
+			"fileName": "angry-keystones",
+			"description": "Displays additional information for Mythic Keystone dungeons"
+		}
+	]
+}

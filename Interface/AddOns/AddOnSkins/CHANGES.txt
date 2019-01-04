@@ -1,0 +1,28 @@
+lightweight tag 8ef56d3862a1977d3b1883c7813b72552c4faf7b 4.07
+Author:	Azilroka <darktemplar9900@yahoo.com>
+Date:	Thu Dec 20 16:16:23 2018 -0600
+
+commit 8ef56d3862a1977d3b1883c7813b72552c4faf7b
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Thu Dec 20 16:16:23 2018 -0600
+
+    4.07
+
+commit e5445b7ac4114766a873093ef8f0f1b445482646
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Thu Dec 20 16:13:12 2018 -0600
+
+    Ace3 Hard Copy
+
+commit 1a5dd0a539853dff7e7de1bf7cd78e6b719c537d
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Thu Dec 20 16:09:20 2018 -0600
+
+    Ace3 External Attempt 2
+
+commit 5a9ccaf0df0a92db75b09e54ed7a33f2a4789202
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Thu Dec 20 16:04:07 2018 -0600
+
+    Ace3 External
+

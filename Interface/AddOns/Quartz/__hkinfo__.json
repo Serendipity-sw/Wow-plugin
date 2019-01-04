@@ -1,0 +1,30 @@
+{
+	"version": "3.4.0",
+	"search": 2,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/58/449/62/62/636141439667503723.png",
+			"name": "Quartz: School",
+			"fileName": "quartz-school",
+			"description": "Quartz module to change color after the spell school on cast bars."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/60/94/62/62/636141510973547576.jpg",
+			"name": "Quartz: Procs Module",
+			"fileName": "quartz_procs",
+			"description": "Quartz module to display procs, class abilities, buffs, and cooldowns, displayed on the Mirror bar."
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Quartz",
+			"fileName": "quartz",
+			"description": "Modular casting bar."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/56/607/62/62/636141382052995983.jpg",
+			"name": "Quartz: Power Bar",
+			"fileName": "quartz-power-bar",
+			"description": "Module for Quartz to show Secondary Powers like Demonic Fury"
+		}
+	]
+}

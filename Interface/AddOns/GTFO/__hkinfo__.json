@@ -1,0 +1,14 @@
+{
+	"ipMap": [],
+	"version": "4.46.12",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/300/62/62/636141626292763380.jpg",
+			"name": "GTFO",
+			"fileName": "gtfo",
+			"description": "GTFO warns you when you're standing in fire or other bad stuff."
+		}
+	],
+	"mapping": "GTFO"
+}

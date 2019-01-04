@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/55/111/62/62/636141342029499196.jpg",
+			"name": "AuctionMaster",
+			"fileName": "auctionmaster",
+			"description": "AuctionMaster"
+		}
+	],
+	"ipMap": [],
+	"version": "8.1.0",
+	"mapping": "AuctionMaster"
+}

@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/638/62/62/636141668707692125.png",
+			"name": "Broker WorldQuests",
+			"fileName": "broker_worldquests",
+			"description": "A data broker plugin that shows world quests in list form, so you can quickly find the ones that are worth doing."
+		}
+	],
+	"ipMap": [],
+	"version": "8.1.55",
+	"mapping": "Broker WorldQuests"
+}

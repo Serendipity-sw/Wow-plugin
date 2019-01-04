@@ -1,0 +1,22 @@
+{
+	"ipMap": [
+		"TellMeWhen_Options"
+	],
+	"version": "8.5.7",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/54/532/62/62/636135407001880375.jpg",
+			"name": "TellMeWhen",
+			"fileName": "tellmewhen",
+			"description": "Provides visual, auditory, and textual notifications about cooldowns, buffs, and pretty much every other element of combat."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/153/24/62/62/636615739581396763.png",
+			"name": "TellMeWhen_Script_Tools",
+			"fileName": "tellmewhen_script_tools",
+			"description": "A list of utilities to help create script-driven icons and bars with TellMeWhen"
+		}
+	],
+	"mapping": "TellMeWhen"
+}

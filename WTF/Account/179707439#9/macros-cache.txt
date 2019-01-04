@@ -1,0 +1,19 @@
+VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清毒术;  [@mouseover,exists,mod:ctrl] 清毒术; [@mouseover,exists,mod:shift] 清毒术
+END
+VER 3 0000000000000002 "倒数" "136181"
+/pull 7
+END
+VER 3 0000000000000003 "标记" "132130"
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000006 "标记" "132130"
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000005 "标记" "132130"
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000004 "标记" "132130"
+/script SetRaidTarget("target",8)
+END

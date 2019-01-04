@@ -1,0 +1,78 @@
+VER 3 010000000000000D "." "INV_Misc_QuestionMark"
+#showtooltips
+/cast [target=mouseover,help]牺牲祝福;牺牲祝福
+END
+VER 3 010000000000000E ".." "INV_Misc_QuestionMark"
+#showtooltips
+/cast [target=mouseover,help]守护之光;守护之光
+END
+VER 3 010000000000000F "..," "INV_Misc_QuestionMark"
+#showtooltips
+/cast [target=mouseover,help]自由祝福;自由祝福
+END
+VER 3 0100000000000010 "...." "INV_Misc_QuestionMark"
+#showtooltip 复仇者之盾 
+/use [@mouseover,harm,nodead,exists] [@target,harm,nodead,exists] 复仇者之盾 
+/stopmacro [@mouseover,harm,nodead,exists][harm,nodead,exists] 
+/targetenemy 
+/use 复仇者之盾
+END
+VER 3 0100000000000011 "0" "135963"
+/tar 深渊追猎者
+/cast 制裁之锤
+END
+VER 3 0100000000000012 "0.0" "132092"
+/run BattlefieldMgrQueueRequest(1)
+END
+VER 3 0100000000000003 "DB_Fury1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury1
+END
+VER 3 0100000000000004 "DB_Fury2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury2
+END
+VER 3 0100000000000001 "DB_Fury3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury3
+END
+VER 3 0100000000000002 "DB_Fury4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury4
+END
+VER 3 0100000000000005 "DB_ProtWar" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_ProtWar
+END
+VER 3 0100000000000006 "VuhDoDCShieldData" "Ability_Repair"
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000007 "VuhDoDCShieldNames" "Ability_Repair"
+N诗雨筱[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]涴紗[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000008 "焦点法术反制" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus] 法术反制
+END
+VER 3 0100000000000009 "焦点法术吸取" "135875"
+/施放 复仇之怒
+/施放 神圣复仇者
+/cast 
+/施放 处决宣判
+END
+VER 3 010000000000000A "焦点深度冻结" "135959"
+/tar player 
+/targetlasttarget 
+/tar 寒冰之球 
+/cast 审判 
+/targetlasttarget 
+/targetlasttarget [help]
+END
+VER 3 010000000000000B "牺牲" "135966"
+/目标 思念丢丢
+/cast 牺牲之手
+END
+VER 3 010000000000000C "饰品药水" "133176"
+/cast 残缺的种荚
+/cast 延时之力药水
+END

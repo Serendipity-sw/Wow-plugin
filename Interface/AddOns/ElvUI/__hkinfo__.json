@@ -1,0 +1,14 @@
+{
+	"ipMap": [
+		"ElvUI_Config"
+	],
+	"version": "10.84",
+	"search": 0,
+	"searchList": [
+		{
+			"name": "ElvUI",
+			"other": true
+		}
+	],
+	"mapping": "ElvUI"
+}

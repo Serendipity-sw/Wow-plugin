@@ -1,0 +1,21 @@
+
+MasterPlanAG = {
+	["纳克萨玛斯"] = {
+		["Asdffg"] = {
+			["faction"] = "Horde",
+			["class"] = "SHAMAN",
+		},
+		["诗雨筱零"] = {
+			["lastCacheTime"] = 1543067423,
+			["class"] = "MONK",
+			["curRes"] = 106,
+			["faction"] = "Horde",
+		},
+	},
+	["凤凰之神"] = {
+		["涴紗"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Horde",
+		},
+	},
+}

@@ -1,0 +1,7 @@
+changeset:   353:b4ca2dc292cf
+tag:         v8.1.0.353
+user:        Tercioo
+date:        Thu Dec 27 20:17:04 2018 -0200
+summary:     - Fixed an issue with the taxi map where hovering over a widget won't show the tooltip.
+
+

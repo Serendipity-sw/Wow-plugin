@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/147/486/62/62/636576942347499348.jpeg",
+			"name": "Method Dungeon Tools",
+			"fileName": "method-dungeon-tools",
+			"description": "World of Warcraft AddOn for planning and optimizing Mythic+ dungeon runs"
+		}
+	],
+	"ipMap": [],
+	"version": "2.2.50",
+	"mapping": "Method Dungeon Tools"
+}

@@ -1,0 +1,15 @@
+VER 3 0100000000000015 "VuhDoDCShieldData" "Ability_Repair"
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000016 "VuhDoDCShieldNames" "Ability_Repair"
+N诗雨筱[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]诗雨筱[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000017 "爆发" "606552"
+/施放 金辉飞羽
+/施放 轮回之触
+/施放 
+END
+VER 3 0100000000000014 "还魂术" "1020466"
+/大喊 焦黑之魂,残月之夜,众生哀鸣
+/施放 还魂术
+END

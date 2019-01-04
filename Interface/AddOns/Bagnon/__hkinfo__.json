@@ -1,0 +1,97 @@
+{
+	"search": 2,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/176/803/62/62/636766255526908307.png",
+			"name": "Bagnon ReagentBankButton",
+			"fileName": "bagnon-reagentbankbutton",
+			"description": "A simple Bagnon plugin adding an extra menu button to toggle the reagent bank."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/176/386/62/62/636763361728898875.png",
+			"name": "Bagnon RequiredLevel",
+			"fileName": "bagnon-requiredlevel",
+			"description": "A simple Bagnon plugin displaying info on items and recipes for which the required character or skill level is not yet fulfilled."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/137/252/62/62/636513747773501120.png",
+			"name": "Bagnon",
+			"fileName": "bagnon",
+			"description": "All in one displays for your inventory, bank, and keyring"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/141/371/62/62/636541529395286540.jpeg",
+			"name": "Bagnon Facade",
+			"fileName": "bagnon-facade",
+			"description": "Allows Masque to skin Bagnon windows"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/110/85/62/62/636384396550512955.jpeg",
+			"name": "Bagnon ItemLevel",
+			"fileName": "bagnon-itemlevel",
+			"description": "A simple plugin for Bagnon that displays the item level of your equipable gear and artifact relics."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/167/35/62/62/636701241056331092.jpeg",
+			"name": "Bagnon Equipment 2",
+			"fileName": "bagnon-equipment-2",
+			"description": "Marks each item in the Bagnon inventory with equipment set icons (only supports WoW equipment sets). Forked from Bagnon Equipment."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/137/635/62/62/636516327035474122.jpeg",
+			"name": "Bagnon Scrap",
+			"fileName": "bagnon-scrap",
+			"description": "Makes your Scrap to glow in your Bagnon"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/117/566/62/62/636401299986476869.png",
+			"name": "Bagnon BoE",
+			"fileName": "bagnon-boe",
+			"description": "This is a simple plugin for bagnon that displays the label BoE on Bind on Equip items in your bags."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/117/135/62/62/636399932337165678.png",
+			"name": "Bagnon Garbage",
+			"fileName": "bagnon-garbage",
+			"description": "A simple plugin for bagnon that desaturates and tones down garbage in your bags"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/117/213/62/62/636400463344225729.png",
+			"name": "Bagnon LegionPower",
+			"fileName": "bagnon-artifactpower",
+			"description": "A simple Bagnon plugin that displays how much Artifact Power, Ancient Mana and Champion Item Levels items in your bags award when used."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/129/660/62/62/636458661741320612.jpeg",
+			"name": "Bagnon Champion",
+			"fileName": "bagnon-champion",
+			"description": "Bagnon Champion"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/133/199/62/62/636481707784932944.png",
+			"name": "Bagnon Currencies",
+			"fileName": "bagnon-currencies",
+			"description": "Makes currencies visible in the bag."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/987/62/62/636142223589720709.png",
+			"name": "Bagnon_SyLevel",
+			"fileName": "bagnon_sylevel",
+			"description": "Add SyLevel item level display support to Bagnon."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/59/802/62/62/636141479261183549.png",
+			"name": "Bagnon Equipment",
+			"fileName": "bagnon-equipment",
+			"description": "Displays your equipment set icons in your inventory"
+		}
+	],
+	"ipMap": [
+		"BagBrother",
+		"Bagnon_Config",
+		"Bagnon_VoidStorage",
+		"Bagnon_GuildBank"
+	],
+	"version": "8.0.7^^2018-10-15 13:22:53",
+	"mapping": "Bagnon"
+}

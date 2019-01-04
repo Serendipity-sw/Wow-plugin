@@ -1,0 +1,71 @@
+tag a657d437c5b2ee8c004d53a9261e1b706cbec746 8.1.1
+Author:	subversion <svn@deadlybossmods.com>
+Date:	Thu Dec 20 00:36:19 2018 +0100
+
+Tagging as 8.1.1
+
+commit 32ea0aab875a66ff1865c573c86cab9158371e09
+Author: subversion <svn@deadlybossmods.com>
+Date:   Thu Dec 20 00:36:19 2018 +0100
+
+    increment version number to 8.1.1
+
+commit 4e00d8f3336c7ce0d8426c72a184de1484af1c2e
+Author: subversion <svn@deadlybossmods.com>
+Date:   Wed Dec 19 01:31:27 2018 +0100
+
+    Omega via svn r18134:
+    Further improve ivus timers with more data, which confirms petrify interaction
+
+commit 2a1431ac7e5e315fcb7514b95f92b02cf3e63bc8
+Author: subversion <svn@deadlybossmods.com>
+Date:   Tue Dec 18 05:16:41 2018 +0100
+
+    Omega via svn r18133:
+    An additional no taunt warning for ghuun, based on distance from other tank
+
+commit f1ce152e21d6aa0f1f58aa95662d8ca974e72d1a
+Author: subversion <svn@deadlybossmods.com>
+Date:   Fri Dec 14 05:12:20 2018 +0100
+
+    Omega via svn r18132:
+    Adjust wind tunnel by 0.3
+
+commit ccab640280a207a9e21d520f7fa183f30085891f
+Author: subversion <svn@deadlybossmods.com>
+Date:   Fri Dec 14 05:11:43 2018 +0100
+
+    Omega via svn r18131:
+    Adjust first Cudgel timer, which seems to have changed in 8.1 by about 4 seconds
+
+commit e91baac3f5b1973736e393f104430fbed583a761
+Author: subversion <svn@deadlybossmods.com>
+Date:   Thu Dec 13 04:39:39 2018 +0100
+
+    Omega via svn r18130:
+    Added requested  auto marking to Ass Pix
+    Added requested countdown option for Mythrax
+
+commit aa82cb4f176bddccdd4ee7067d9c24f841111f3a
+Author: subversion <svn@deadlybossmods.com>
+Date:   Wed Dec 12 09:19:36 2018 +0100
+
+    Omega via svn r18129:
+    CN update
+
+commit 6e55207cd2d1afea44fb04e58722de80ee76cf7b
+Author: subversion <svn@deadlybossmods.com>
+Date:   Wed Dec 12 06:10:29 2018 +0100
+
+    Omega via svn r18128:
+    Fix Ivus mod not loading/engaging properly
+    Updated Ivus timers with live ones while at it.
+    Improved shockwave warning with target scanning on ivus
+
+commit dc8b74fb3ba19881cb20f2bf3b7117143977ffe7
+Author: subversion <svn@deadlybossmods.com>
+Date:   Tue Dec 11 17:24:31 2018 +0100
+
+    tandanu via svn r18127:
+    increment alpha version
+

@@ -1,0 +1,170 @@
+{
+	"ipMap": [
+		"DBM-Azeroth-BfA",
+		"DBM-Brawlers",
+		"DBM-CrucibleofStorms",
+		"DBM-DefaultSkin",
+		"DBM-DMF",
+		"DBM-GUI",
+		"DBM-Party-BfA",
+		"DBM-StatusBarTimers",
+		"DBM-Uldir",
+		"DBM-WorldEvents",
+		"DBM-ZuldazarRaid"
+	],
+	"version": "8.1.1",
+	"mapping": "Deadly Boss Mods (DBM)",
+	"search": 1,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/60/690/62/62/636141562844190730_animated.gif",
+			"name": "LittleWigs",
+			"fileName": "little-wigs",
+			"description": "BigWigs plugin providing boss warnings for dungeons &amp; scenarios. The efficiently coded alternative to Deadly Boss Mods (DBM) for spell &amp; ability timers."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/54/520/62/62/636135324678328410.jpg",
+			"name": "Deadly Boss Mods (DBM)",
+			"fileName": "deadly-boss-mods",
+			"description": "Displays timers and warnings of raid bosses spells and abilities and detailed Infoframes of fight mechanics."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/57/609/62/62/636141411914647606.png",
+			"name": "BigWigs Bossmods",
+			"fileName": "big-wigs",
+			"description": "Modular, lightweight, non-intrusive approach to boss encounter warnings. The efficiently coded alternative to Deadly Boss Mods (DBM) for spell &amp; ability timers."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/175/93/62/62/636755702260653605.png",
+			"name": "Capping Battleground Timers",
+			"fileName": "capping-bg-timers",
+			"description": "Battleground timers and other PvP &amp; arena features. The efficiently coded alternative to Deadly Boss Mods (DBM) PvP."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/55/412/62/62/636141351125997462.jpg",
+			"name": "DBM-RaidTools (Deadly Boss Mods)",
+			"fileName": "dbm-raidtools",
+			"description": "Provides a lot of functions to Track Raids in EQDKP, provides a BidBot for Raid Management and many more nice features"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Cataclysm mods",
+			"fileName": "deadly-boss-mods-cataclysm-mods",
+			"description": "Boss Mods for all Cataclysm Dungeons"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/167/599/62/62/636704368340489843.jpeg",
+			"name": "Deadly Boss Mods (DBM) - Legion",
+			"fileName": "deadly-boss-mods-dbm-legion",
+			"description": "DBM modules for Legion content"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Overwatch Countdown Pack",
+			"fileName": "deadly-boss-mods-dbm-overwatch-countdown-pack",
+			"description": "A collection of overwatch countdown sound options for use with Deadly Boss Mods."
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Korean Gamers Countdown Pack",
+			"fileName": "deadly-boss-mods-dbm-korean-gamers-countdown-pack",
+			"description": "A collection of countdown voices from several Korean voicepacks"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Warlords of Draenor (WoD) mods",
+			"fileName": "deadly-boss-mods-wod",
+			"description": "DBM modules for Warlords of Draenor content"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Mists of Pandaria (MoP) mods",
+			"fileName": "deadly-boss-mods-mop",
+			"description": "DBM modules for Mists of Pandaria content"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Dey fightin",
+			"fileName": "deyfightin",
+			"description": "Will play a sound file when you get a autoresponse from Deadly Boss Mods."
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Heroes of the Storm (HoTS) Countdown Pack",
+			"fileName": "deadly-boss-mods-dbm-heroes-of-the-storm-hots",
+			"description": "A collection of Heroes of the Storm countdown sound options for use with Deadly Boss Mods."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/144/339/62/62/636555284225746904.jpeg",
+			"name": "Deadly Boss Mods (DBM) Event Pack",
+			"fileName": "deadly-boss-mods-dbm-event-sound-pack",
+			"description": "Several media files for DBM encounter Event feature."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/145/17/62/62/636559724318908632.jpeg",
+			"name": "Deadly Boss Mods (DBM) SmoothMcGroove Event Pack",
+			"fileName": "deadly-boss-mods-dbm-smoothmcgroove-event-pack",
+			"description": "Several media files for DBM encounter Event feature."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/59/413/62/62/636141464841427233.jpg",
+			"name": "DBM-SpellTimers (Deadly Boss Mods)",
+			"fileName": "dbm-spelltimers",
+			"description": "DBM-SpellTimers (Deadly Boss Mods)"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/58/69/62/62/636141429668187302.png",
+			"name": "Deadly Boss Mods (DBM) - BC &amp; Vanilla/Classic mods",
+			"fileName": "dbm-bc",
+			"description": "Deadly Boss Mods (DBM) - BC &amp; Vanilla/Classic mods"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM) - Wrath of the Lich King mods",
+			"fileName": "deadly-boss-mods-wotlk",
+			"description": "DBM modules for WotLK dungeons/raids"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Deadly Boss Mods (DBM): Challenges",
+			"fileName": "dbm-challenges",
+			"description": "This mod will add support for singe player challenges such as Proving Grounds $ Legion Mage Tower to DBM"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/58/855/62/62/636141449389742549.jpeg",
+			"name": "DBM: Timeless Isle",
+			"fileName": "dbm-timeless-isle",
+			"description": "This mod adds support for Timeless Isle to Deadly Boss Mods (DBM)."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/57/708/62/62/636141415759990930.png",
+			"name": "Deadly Boss Mods (DBM) - PvP Mods",
+			"fileName": "dbm-pvp",
+			"description": "Deadly Boss Mods for Battlegrounds and Arenas"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/140/277/62/62/636533685183945332.png",
+			"name": "BigWigs_AutoReply2",
+			"fileName": "bigwigs-autoreply2",
+			"description": "3rd party module for BigWigs that replicates the auto reply functionality found in Deadly Boss Mods."
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "DBM-Battlefield Barrens",
+			"fileName": "dbm-battlefield-barrens",
+			"description": "A Deadly Boss Mods sub mod for the Battlefield: Barrens world event."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/58/71/62/62/636141429781265377.png",
+			"name": "Deadly Boss Mods - LibDataBroker",
+			"fileName": "dbm-ldb",
+			"description": "Deadly Boss Mods - LibDataBroker"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "DBM Voicepack Johnny",
+			"fileName": "dbm-voicepack-johnny",
+			"description": "Countdown voicepack for Deadly Boss Mods"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="quest.lua"/>
+	<Script file="smartquest.lua"/>
+	<Script file="questtracker.lua"/>
+	<Script file="options.lua"/>
+</Ui>

@@ -1,0 +1,50 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["诗雨筱零 - 纳克萨玛斯"] = "诗雨筱零 - 纳克萨玛斯",
+		["Asdffg - 纳克萨玛斯"] = "Asdffg - 纳克萨玛斯",
+		["涴紗 - 凤凰之神"] = "涴紗 - 凤凰之神",
+	},
+	["profiles"] = {
+		["诗雨筱零 - 纳克萨玛斯"] = {
+			["PositionY"] = 223.500015258789,
+			["PositionW"] = 199.999847412109,
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+			["Shown"] = true,
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
+			},
+			["PositionX"] = 1107.0009765625,
+			["PositionH"] = 82.0000152587891,
+		},
+		["Asdffg - 纳克萨玛斯"] = {
+			["PositionY"] = 583.499938964844,
+			["PositionX"] = 847.500061035156,
+			["Shown"] = false,
+			["Background"] = {
+				["BarInset"] = 2,
+				["EdgeSize"] = 1,
+			},
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+		["涴紗 - 凤凰之神"] = {
+			["PositionW"] = 199.999984741211,
+			["PositionH"] = 81.9999847412109,
+			["PositionY"] = 276.499969482422,
+			["Background"] = {
+				["EdgeSize"] = 1,
+				["BarInset"] = 2,
+			},
+			["PositionX"] = 317.499969482422,
+			["Shown"] = true,
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+	},
+}

@@ -1,0 +1,8 @@
+## Interface: 80100
+## Title: Masque: |cff99CCFFEpix|r
+## Version: 1.2
+## Author: Epix
+## Notes: Epix skin for Masque.
+## Dependencies: Masque
+
+Masque_Epix.lua

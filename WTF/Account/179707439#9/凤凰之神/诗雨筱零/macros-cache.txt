@@ -1,0 +1,45 @@
+VER 3 0100000000000002 "pvp闷棍" "132310"
+#showtooltip 潜行
+/cast !潜行
+/Cleartarget
+/Targetenemy
+/cast 闷棍
+END
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]诗雨筱[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000007 "剑刃乱舞" "132350"
+/cast 剑刃乱舞
+/focus [modifier:shift] 
+/stopmacro [modifier:shift] 
+/cast [target=focus,help][help][target=targettarget,help][target=pet]嫁祸诀窍 
+/script local u,t=UnitName,"focus";t=u(t);if not t then t=u("targettarget");end 
+END
+VER 3 0100000000000001 "帷幕倒计时" "635350"
+/cast 潜伏帷幕
+/y 潜伏帷幕已释放 持续15s
+/in 4 /y 剩余10s
+/in 9 /y 剩余5s
+/in 10 /y 剩余4s
+/in 11 /y 剩余3s
+/in 12 /y 剩余2s
+/in 13 /y 剩余1s
+/in 14 /y 潜伏帷幕已结束
+END
+VER 3 0100000000000006 "影袭" "136189"
+/cast 影袭
+/focus [modifier:shift] 
+/stopmacro [modifier:shift] 
+/cast [target=focus,help][help][target=targettarget,help][target=pet]嫁祸诀窍 
+/script local u,t=UnitName,"focus";t=u(t);if not t then t=u("targettarget");end 
+END
+VER 3 0100000000000003 "焦点嫁祸宏" "236283"
+#showtooltip 嫁祸诀窍 
+/focus [modifier:shift] 
+/stopmacro [modifier:shift] 
+/cast [target=focus,help][help][target=targettarget,help][target=pet]嫁祸诀窍 
+/script local u,t=UnitName,"focus";t=u(t);if not t then t=u("targettarget");end 
+END

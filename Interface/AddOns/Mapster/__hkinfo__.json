@@ -1,0 +1,18 @@
+{
+	"version": "1.8.1",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/304/62/62/636142138464447392.jpg",
+			"name": "Mapster",
+			"fileName": "mapster",
+			"description": "Simple Map Mod"
+		},
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "MiniMapster",
+			"fileName": "minimapster",
+			"description": "Mapster's Minimap brother"
+		}
+	]
+}

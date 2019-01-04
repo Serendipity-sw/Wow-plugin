@@ -1,0 +1,23 @@
+## Interface: 80100
+## Author - updated and fixed for 8.0.1 by Izy
+## Contact/support at twitch.tv/imedia
+## Title: Arena Team Tracker
+## Version: v4.1
+## Notes: Tracks cooldowns of party members
+## SavedVariables: ATTDB
+
+libs\LibSimpleOptions-1.01\lib.xml
+libs\Spells\spell_lib_mage.lua
+libs\Spells\spell_lib_paladin.lua
+libs\Spells\spell_lib_warrior.lua
+Libs\Spells\spell_lib_druid.lua
+libs\Spells\spell_lib_dknight.lua
+libs\Spells\spell_lib_hunter.lua
+libs\Spells\spell_lib_priest.lua
+libs\Spells\spell_lib_rogue.lua
+libs\Spells\spell_lib_shaman.lua
+libs\Spells\spell_lib_warlock.lua
+libs\Spells\spell_lib_monk.lua
+libs\Spells\spell_lib_dhunter.lua
+
+ATT.lua

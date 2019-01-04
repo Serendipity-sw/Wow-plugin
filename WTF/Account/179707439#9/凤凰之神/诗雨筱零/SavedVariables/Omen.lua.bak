@@ -1,0 +1,20 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["情伤难愈 - 凤凰之神"] = "情伤难愈 - 凤凰之神",
+	},
+	["profiles"] = {
+		["情伤难愈 - 凤凰之神"] = {
+			["PositionY"] = 583.499938964844,
+			["Background"] = {
+				["EdgeSize"] = 1,
+				["BarInset"] = 2,
+			},
+			["PositionX"] = 847.500061035156,
+			["Shown"] = false,
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+	},
+}

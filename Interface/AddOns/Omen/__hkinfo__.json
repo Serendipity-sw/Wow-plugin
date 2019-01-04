@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/535/62/62/636142171158729785.jpg",
+			"name": "Omen Threat Meter",
+			"fileName": "omen-threat-meter",
+			"description": "A lightweight, flexible, multi-target threat meter."
+		}
+	],
+	"ipMap": [],
+	"version": "3.2.1",
+	"mapping": "Omen Threat Meter"
+}

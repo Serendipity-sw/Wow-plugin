@@ -1,0 +1,14 @@
+{
+	"ipMap": [],
+	"version": "4.07",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "AddOnSkins",
+			"fileName": "addonskins",
+			"description": "Additional skins for AddOns to match the look of ElvUI"
+		}
+	],
+	"mapping": "AddOnSkins"
+}

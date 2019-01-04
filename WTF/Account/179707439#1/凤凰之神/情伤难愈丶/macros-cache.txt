@@ -1,0 +1,90 @@
+VER 3 0100000000000003 "变身" "1247262"
+/cast 恶魔变形
+/大喊 让那些蠢货们看着反抗你的下场吧，其他人将匍匐在你的脚下。
+END
+VER 3 0100000000000004 "咩站着" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 灭战者
+/cast 基尔加丹的炽燃决心
+/cast 阴影月刃
+/cast 托尼的承诺
+END
+VER 3 0100000000000005 "喊" "463876"
+/Y  无线入侵 P1P2 刷经验啦，来的私聊密我打1，只需要打一个1就可以进组 来的速度了。。。。
+END
+VER 3 0100000000000006 "嘲讽" "136119"
+/stopcasting
+/target 主母萨丝林
+/cast 黑暗命令
+/targetlasttarget
+END
+VER 3 0100000000000007 "基建" "533862"
+/tar 装甲板连接束
+/cast 基洛普泰里克的印记
+/cast 爆炸射击
+/cast 托维尔
+END
+VER 3 0100000000000008 "多重射击" "INV_Misc_QuestionMark"
+#showtooltip 多重射击
+/petattack
+/startattack
+/cast [target=mouseover,harm,nodead][]多重射击
+END
+VER 3 010000000000000B "大风车" "134400"
+/cancelaura 剑刃风暴
+END
+VER 3 010000000000000A "大风车" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 剑刃风暴
+/cast 横扫攻击
+/y 天下是傻逼
+END
+VER 3 0100000000000009 "大风车" "INV_Misc_QuestionMark"
+#showtooltip 剑刃风暴
+/startattack 
+/cast [@player] 破坏者
+/y 天下是傻逼
+END
+VER 3 010000000000000C "奥射" "INV_Misc_QuestionMark"
+#showtooltip 奥术射击
+/startattack
+/cast 疯乱
+/cast 奥术射击
+END
+VER 3 010000000000000D "奥法爆发" "132317"
+/CAST 幻灵晶体
+/CAST 奥术强化
+END
+VER 3 010000000000000E "嫁祸" "INV_Misc_QuestionMark"
+#showtooltip 嫁祸诀窍 
+/cast [help] [target=focus, help] [target=targettarget, help] 嫁祸诀窍
+/亲吻
+END
+VER 3 010000000000000F "嫁祸" "INV_Misc_QuestionMark"
+#showtooltip 误导
+/cast [help] [target=focus, help] [target=targettarget, help] 误导
+/亲吻
+END
+VER 3 0100000000000010 "宝宝" "136199"
+/施放 摧心魔
+/use 醒神宝典
+END
+VER 3 0100000000000011 "宝宝进团须知" "894556"
+/团队  宝宝进团须知：进团贴钥匙排队，先后顺序，不要引怪，如要做世界任务，可上YY41944265
+END
+VER 3 0100000000000012 "射击" "461114"
+/castsequence [nochanneling]reset=4 眼镜蛇射击,眼镜蛇射击,眼镜蛇射击,眼镜蛇射击
+/use [nochanneling]狂野怒火
+/use [nochanneling]夺命黑鸦
+/castsequence 13
+/castsequence 14
+/targetenemy [noharm][dead]
+END
+VER 3 0100000000000001 "气定" "136031"
+/cast 气定神闲
+/cast 精力充沛
+END
+VER 3 0100000000000002 "爆发" "136048"
+/cast 奥术强化
+/cast 终端信号道标
+END

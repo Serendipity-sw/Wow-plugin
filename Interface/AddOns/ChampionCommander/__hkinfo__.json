@@ -1,0 +1,14 @@
+{
+	"ipMap": [],
+	"version": "1.1.2",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/166/739/62/62/636699657537573799.png",
+			"name": "ChampionCommander",
+			"fileName": "championcommander",
+			"description": "Mission Assistant for BFA Champion Table"
+		}
+	],
+	"mapping": "ChampionCommander"
+}

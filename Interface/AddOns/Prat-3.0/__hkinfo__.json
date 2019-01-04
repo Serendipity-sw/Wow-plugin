@@ -1,0 +1,22 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/943/62/62/636142217454440210.jpg",
+			"name": "Prat 3.0",
+			"fileName": "prat-3-0",
+			"description": "A framework for chat ehancement modules."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/167/530/62/62/636703925416761431.png",
+			"name": "PratBlocker",
+			"fileName": "pratblocker",
+			"description": "Blocks those annoying automated congratulations when someone completes an achievement"
+		}
+	],
+	"ipMap": [
+		"Prat-3.0_Libraries"
+	],
+	"version": "3.7.20",
+	"mapping": "Prat 3.0"
+}

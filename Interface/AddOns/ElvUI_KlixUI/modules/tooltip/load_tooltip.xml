@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<script file="tooltip.lua"/>	
+	<script file="progression.lua"/>
+	<script file="realm.lua"/>
+	<script file="azerite.lua"/>
+	<Script file="achievement.lua"/>
+	<Script file="keystone.lua"/>
+	<script file="options.lua"/>
+</Ui>

@@ -1,0 +1,16 @@
+{
+	"version": "3.98",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/56/876/62/62/636141390517021474.jpg",
+			"name": "VuhDo",
+			"fileName": "vuhdo",
+			"description": "Raid Frames providing click-heal functionality, buff and debuff control, main tank management and much more."
+		}
+	],
+	"ipMap": [
+		"VuhDoOptions"
+	],
+	"mapping": "VuhDo"
+}

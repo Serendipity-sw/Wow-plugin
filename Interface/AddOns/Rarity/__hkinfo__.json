@@ -1,0 +1,26 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/464/62/62/636142161574157755.png",
+			"name": "Rarity",
+			"fileName": "rarity",
+			"description": "Tracks rare drops, including companions and mounts"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/354/62/62/636141632774954936.jpg",
+			"name": "eSaith Bag Filter",
+			"fileName": "esaith-bag-filter",
+			"description": "Allows filtering of bag items to sell to vendor by rarity, current session instance/zones, and ilvl."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/57/696/62/62/636141415426317977.png",
+			"name": "Scrolling Loot Text",
+			"fileName": "slote",
+			"description": "Display loot in Blizzards Scrolling Combat Text with the Icon and the Name in the colour of the Rarity."
+		}
+	],
+	"ipMap": [],
+	"version": "r681-release",
+	"mapping": "Rarity"
+}

@@ -1,0 +1,29 @@
+{
+	"ipMap": [
+		"AtlasLoot_BattleforAzeroth",
+		"AtlasLoot_BurningCrusade",
+		"AtlasLoot_Cataclysm",
+		"AtlasLoot_Classic",
+		"AtlasLoot_Collections",
+		"AtlasLoot_Crafting",
+		"AtlasLoot_Factions",
+		"AtlasLoot_Legion",
+		"AtlasLoot_MistsofPandaria",
+		"AtlasLoot_Options",
+		"AtlasLoot_PvP",
+		"AtlasLoot_WarlordsofDraenor",
+		"AtlasLoot_WorldEvents",
+		"AtlasLoot_WrathoftheLichKing"
+	],
+	"version": "8.09.00",
+	"mapping": "AtlasLoot Enhanced",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/95/235/62/62/636275951216234875.png",
+			"name": "AtlasLoot Enhanced",
+			"fileName": "atlasloot-enhanced",
+			"description": "Shows the possible loot from the bosses"
+		}
+	]
+}

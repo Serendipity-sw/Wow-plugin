@@ -1,0 +1,14 @@
+{
+	"ipMap": [],
+	"version": "8.1.6",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/168/816/62/62/636711546446129846.png",
+			"name": "AzeritePowerWeights",
+			"fileName": "azeritepowerweights",
+			"description": "Helps you pick the best Azerite powers on your gear for your class and spec."
+		}
+	],
+	"mapping": "AzeritePowerWeights"
+}

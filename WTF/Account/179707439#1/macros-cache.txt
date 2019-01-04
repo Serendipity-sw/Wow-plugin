@@ -1,0 +1,510 @@
+VER 3 0000000000000055 " " "136206"
+/施放 冲动
+/use 灾变角斗士的征服徽章
+END
+VER 3 0000000000000056 " " "134400"
+/cast [@cursor] 烈焰风暴
+END
+VER 3 0000000000000057 " " "135838"
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0000000000000058 " " "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障  
+/stopcasting  
+/cancelAura 寒冰屏障  
+/cast 寒冰屏障
+END
+VER 3 000000000000005A " " "134400"
+/cast [@cursor] 流星
+END
+VER 3 000000000000005B " " "135727"
+/施放 狂暴(种族特长)
+/use 怨火柳枝
+END
+VER 3 000000000000005C " " "134400"
+/施放 燃烧
+/use 怨火柳枝
+END
+VER 3 000000000000005E " 围攻" "132094"
+/p T和远程攻城，近战救人。 最后一个台子过去以后从炮台左侧走，第一根攻城不会进战斗，出第二根攻城T去接住，开嗜血救人开炮。治疗注意+好T的血.
+END
+VER 3 000000000000005D " 彗星" "2126034"
+#showtooltip 彗星风暴
+/cast [nopet]召唤水元素
+/cast [target=pet,dead]召唤水元素
+/stopmacro [target=pet,dead]
+/cast 彗星风暴
+/cast  [@cursor] 冰冻术
+/petattack [harm]
+END
+VER 3 0000000000000031 "/时间扭曲" "ABILITY_MAGE_TIMEWARP"
+/Y  爆发吧！小宇宙
+/cast 时间扭曲
+END
+VER 3 0000000000000061 "1" "134400"
+/click QueueStatusMinimapButton
+/click DropDownList1Button2
+/script LeaveBattlefield()
+END
+VER 3 0000000000000060 "1" "1450142"
+/cast  邪能弹幕
+/大喊 末日降临了，让这个世界彻底崩溃吧！
+END
+VER 3 000000000000005F "1" "1309101"
+/cast 混乱之刃
+/cast 涅墨西斯
+/cast 缺指指环
+/cast 勇气号角
+END
+VER 3 0000000000000062 "111/" "644389"
+ /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil print("OFF.")else print("ON.") X=function()local t=GetTime()if t-T>1 then StaticPopup1Button2:Click()T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000064 "1凶暴野兽" "INV_Misc_QuestionMark"
+#showtooltip 凶暴野兽
+/startattack
+/petattack
+/castsequence reset=2 凶暴野兽
+/cast 凶暴野兽
+/console sound_enablesfx 1
+/script uierrorsframe:clear()
+END
+VER 3 0000000000000065 "2" "644389"
+/下跪
+END
+VER 3 0000000000000066 "2" "134400"
+/click WorldStateScoreFrameLeaveButton    
+/click StaticPopup1Button2
+/click HelpFrameCharacterStuckStuck
+END
+VER 3 0000000000000067 "2杀戮命令" "INV_Misc_QuestionMark"
+#showtooltip 杀戮命令
+/startattack
+/petattack
+/cast 狂野怒火
+/cast 杀戮命令
+/cast 泰坦之雷
+/console sound_enablesfx 1
+/script uierrorsframe:clear()
+END
+VER 3 0000000000000068 "3眼镜蛇射击" "INV_Misc_QuestionMark"
+#showtooltip 眼镜蛇射击
+/startattack
+/petattack
+/cast 野性守护
+/cast 眼镜蛇射击
+/console sound_enablesfx 1
+/script uierrorsframe:clear()
+END
+VER 3 0000000000000069 "5" "134400"
+/5  私人定制 25级公会 招收 稳定 有团队意识 各职业玩家 每晚 7点 活动 有意的MMM
+END
+VER 3 000000000000006A "6" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>30 then SendChatMessage("私人定制 25级公会 招收 稳定 有团队意识 各职业玩家 每晚 7点提团 8点进度团 活动 有意的MMM  ","channel",nil,5)T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000032 "abc" "INV_MISC_QUESTIONMARK"
+/console SET profanityFilter "1111111"
+END
+VER 3 000000000000006B "AOE" "132205"
+/equipslot 13 安格博达的回忆
+/equipslot 14 虚灵之瓶
+END
+VER 3 000000000000006D "BF_Mount" "132226"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button#1
+END
+VER 3 0000000000000028 "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+VER 3 000000000000006C "BF_Mount" "132226"
+/团队 39022114
+END
+VER 3 000000000000006E "BF_Pet" "236701"
+/PULL 6
+END
+VER 3 0000000000000029 "BF_Pet" "ACHIEVEMENT_WORLDEVENT_BREWMASTER"
+/BFPET
+END
+VER 3 000000000000006F "BUFF" "132864"
+/click MultiBarRightButton1
+/click MultiBarRightButton2
+/click MultiBarRightButton3
+/click MultiBarRightButton4
+/click MultiBarRightButton5
+/click MultiBarRightButton6
+/click MultiBarRightButton7
+END
+VER 3 000000000000004D "cursor" "INV_Misc_QuestionMark"
+#showtooltip 烈焰风暴
+/cast [@cursor] 烈焰风暴
+END
+VER 3 0000000000000073 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
+END
+VER 3 0000000000000074 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 宁神射击;  [@mouseover,exists,mod:ctrl] 宁神射击; [@mouseover,exists,mod:shift] 宁神射击
+END
+VER 3 0000000000000070 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
+END
+VER 3 0000000000000072 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清毒术;  [@mouseover,exists,mod:ctrl] 清毒术; [@mouseover,exists,mod:shift] 清毒术
+END
+VER 3 0000000000000071 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
+END
+VER 3 0000000000000033 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
+END
+VER 3 000000000000004E "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 法术吸取; [@mouseover,exists,mod:shift] 变形术
+END
+VER 3 0000000000000075 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清除腐蚀;  [@mouseover,exists,mod:ctrl] 清除腐蚀; [@mouseover,exists,mod:shift] 清除腐蚀
+END
+VER 3 0000000000000076 "DPS" "132089"
+/use 虚无碎片
+/cast 冰冷血脉
+/cast 镜像
+END
+VER 3 000000000000002A "focus" "ABILITY_CREATURE_CURSED_04"
+/target 恶魔之兽
+END
+VER 3 000000000000004C "MillHelper" "Ability_Miling"
+/click MillHelperButton
+END
+VER 3 0000000000000077 "RandomMount" "132226"
+/cleartarget 
+/tar 元素尊者
+/script local t=GetTime()macroT=macroT or 0;if t-macroT>7 then SendChatMessage("发现[%T]","RAID")macroT=t;end
+END
+VER 3 0000000000000034 "sb骗子" "INV_MISC_QUESTIONMARK"
+/目标 寻乐子
+END
+VER 3 0000000000000078 "SilverDragon" "180"
+/click SilverDragonMacroButton
+END
+VER 3 000000000000007A "TAB" "132874"
+/console targetnearestuseold 1 
+END
+VER 3 0000000000000079 "TAB" "134400"
+/startattack
+/targetenemy
+END
+VER 3 000000000000007B "tar" "134400"
+/cleartarget
+/tar 萨萨里安
+/stopmacro [noexists]
+/tar 萨萨里安
+/wave
+END
+VER 3 000000000000007C "xiaotui" "413587"
+/LOGOUT
+END
+VER 3 000000000000007D "YY" "237385"
+/团队 YY288546接待大厅-->PT萨墓接待频道
+END
+VER 3 000000000000007F "YY" "237385"
+/团队 YY855658 个人拾取G团，摸到不要的装备可以给老板，收点小红包。
+END
+VER 3 0000000000000081 "YY" "413591"
+YY288 546 H接待2
+END
+VER 3 0000000000000082 "YY" "132329"
+/RW YY28649502，老板必须上YY
+END
+VER 3 0000000000000080 "YY" "134400"
+/P YY 29105287 请老板上一下YY 谢谢
+END
+VER 3 000000000000007E "YY" "237385"
+/团队 YY83975102 接待大厅-->PT萨墓接待频道
+END
+VER 3 0000000000000035 "一键输出宏" "INV_MISC_QUESTIONMARK"
+r
+END
+VER 3 0000000000000083 "万箭齐发" "INV_Misc_QuestionMark"
+#showtooltips 暴风雪
+/cast [@cursor] 暴风雪
+END
+VER 3 0000000000000036 "下跪" "INV_MISC_QUESTIONMARK"
+/kneel
+END
+VER 3 0000000000000084 "不掉线" "413587"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X) 
+END
+VER 3 0000000000000085 "五码宏" "133210"
+/range 5
+END
+VER 3 0000000000000086 "价格" "413587"
+散件40 戒指项链80 套装圣物饰品160
+END
+VER 3 0000000000000087 "价格" "134400"
+/P 老板您好：
+/P 可选副本，可定制同甲或同职业帮摸 装备全送!!!
+/P 15层起 80元 每加一层+10元 老板OK吗，马上开车
+END
+VER 3 0000000000000088 "保命" "132345"
+#showtoplist 剑在人在
+/cast 剑在人在
+/cast 群体反射
+/cast 狂怒回复
+/cast 命令怒吼
+/cast 治疗石
+END
+VER 3 000000000000008B "倒数" "136181"
+/pull 7
+END
+VER 3 000000000000008D "倒数" "132309"
+/dbmpull 7
+END
+VER 3 000000000000002B "倒数" "INV_MISC_QUESTIONMARK"
+/RW ***8秒后开怪，全团请注意***
+/in 1 /RW 8
+/in 2 /RW 7
+/in 3 /RW 6
+/in 4 /RW 5
+/in 5 /RW 4
+/in 6 /RW 3
+/in 7 /RW 2
+/in 8 /RW 1
+END
+VER 3 000000000000004F "倒数" "338784"
+/pull 10
+END
+VER 3 000000000000008C "倒数" "304711"
+/DBM PULL 5
+END
+VER 3 0000000000000089 "倒数" "136222"
+/DBM pull 10
+END
+VER 3 000000000000008A "倒数" "132334"
+/pull 5
+END
+VER 3 000000000000008E "倒数5" "134331"
+/PULL 5
+END
+VER 3 0000000000000090 "假死" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 假死
+/cast 装死
+END
+VER 3 000000000000008F "假死" "INV_Misc_QuestionMark"
+#showtooltips 假死
+/stopcasting
+/stopcasting
+/cast 假死
+END
+VER 3 000000000000002C "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/stopcasting
+/CAST 假死
+END
+VER 3 0000000000000037 "冰冷血脉爆发" "INV_MISC_QUESTIONMARK"
+/cast 时间扭曲
+/cast 冰冷血脉
+/use 13
+/use 14
+END
+VER 3 0000000000000049 "冰川尖刺" "INV_Misc_QuestionMark"
+#showtooltip 冰川尖刺
+/stopcasting
+/cast 冰川尖刺
+END
+VER 3 0000000000000038 "冰箱" "SPELL_FROST_FROST"
+/Y 我已冰箱，快来BIU BIU BIU我一口
+/cast 寒冰屏障 
+END
+VER 3 0000000000000092 "冲锋" "132337"
+/CAST 冲锋
+/CAST 巨龙怒吼
+END
+VER 3 0000000000000093 "冲锋" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 冲锋
+/cast 撕裂
+END
+VER 3 0000000000000094 "冲锋" "132337"
+/CAST 冲锋
+/CAST 撕裂
+END
+VER 3 0000000000000091 "冲锋" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast 奥丁之怒
+/cast 基尔加丹的炽燃决心
+/cast 风痕磨石
+/cast 托尼的承诺
+END
+VER 3 0000000000000096 "刷入侵" "1032149"
+/W 刺月妹妹-安威玛尔  1
+END
+VER 3 0000000000000097 "刷坐骑" "1339013"
+/W 月色下的乞丐-辛达苟萨 44296
+/run local M=function(a,b)SendChatMessage(b,"WHISPER",nil,a)end;M("我是小前台-白银之手","求组")M("LMCD-冬泉谷","组")M("林荫下的乞丐-安苏","44296")M("杨铁心-古加尔","1")M("鱼戏江湖-织亡者","1")M("死神的黑羽翼-山丘之王","1")
+END
+VER 3 0000000000000098 "刷怪" "132089"
+/cast 宁神射击
+/cast 假死
+ 
+END
+VER 3 0000000000000099 "勇猛的战狼" "INV_Misc_QuestionMark"
+#showtooltip
+/castrandom [nocombat,flyable,outdoors]勇猛的战狼
+/Y 夏天是妹纸
+END
+VER 3 000000000000009A "单体" "132209"
+/equipslot 13 虚灵之瓶
+/equipslot 14 凝结的命运
+END
+VER 3 000000000000009B "单体SP宏" "135754"
+/equipslot 13 嗜血本能
+/equipslot 14 勇气号角
+END
+VER 3 000000000000009C "取消" "237385"
+/dnd
+END
+VER 3 000000000000009D "取消" "1032149"
+/reload ui
+END
+VER 3 000000000000009E "取消刺骨" "INV_Misc_QuestionMark"
+#showtooltip 刺骨
+/cancelaura 终结技：刺骨
+END
+VER 3 00000000000000A2 "变羊" "132248"
+#showtooltip 变形术
+/cast 变形术
+/petpassive
+END
+VER 3 000000000000009F "变身" "INV_Misc_QuestionMark"
+#showtooltip 恶魔变形
+/cast [@cursor] 恶魔变形
+END
+VER 3 000000000000003A "回蓝爆发" "INV_MISC_QUESTIONMARK"
+/cast 奥术强化
+/use 14
+/cast 气定神闲
+END
+VER 3 000000000000003B "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 000000000000003C "复仇之怒爆发" "INV_MISC_QUESTIONMARK"
+/cast 复仇之怒
+/cast 戴罗的遗言
+END
+VER 3 000000000000003D "小宇宙" "INV_MISC_QUESTIONMARK"
+/Y fire fire fire
+#showtooltip
+v
+END
+VER 3 0000000000000039 "工会招人" "ABILITY_CREATURE_CURSED_02"
+/use 召唤鲨鱼饵
+/5 大米工会招收各种大米活跃玩家，会长 8 9 10翻车经验偶尔+1，招收各种休闲玩家吹比
+END
+VER 3 000000000000003E "工兵" "INV_MISC_QUESTIONMARK"
+/target 暮光工兵
+END
+VER 3 00000000000000A0 "彗星风暴" "2126034"
+#Showtooltip 彗星风暴
+/startattack
+/cast [@cursor] 冰冻术
+/use 13
+/cast 彗星风暴 
+END
+VER 3 000000000000003F "恐惧" "INV_MISC_QUESTIONMARK"
+/恐惧
+END
+VER 3 0000000000000050 "指向" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]流星
+END
+VER 3 0000000000000040 "指挥官目标宏" "INV_MISC_QUESTIONMARK"
+/target 负担过重的劳工
+END
+VER 3 0000000000000041 "操作时间" "INV_Misc_QuestionMark"
+#showtooltip 操控时间
+/stopcasting
+/cast 气定神闲
+/cast 操控时间
+/cast 镜像
+END
+VER 3 000000000000002D "斩杀" "INV_Misc_QuestionMark"
+#showtooltip 
+/stopcasting
+/stopcasting
+/cast [@mouseover,harm] [] 杀戮射击
+END
+VER 3 0000000000000042 "暴风雪" "SPELL_FROST_ICESTORM"
+/Y 让暴风雪来的更加猛烈些吧
+/cast 暴风雪
+END
+VER 3 0000000000000043 "柱子" "INV_MISC_QUESTIONMARK"
+/target Boss2
+END
+VER 3 0000000000000044 "气定神闲" "SPELL_NATURE_ENCHANTARMOR"
+/Y 气运丹田
+/cast 气定神闲
+END
+VER 3 0000000000000045 "活体炸弹" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast 活体炸弹
+END
+VER 3 0000000000000046 "活动炸弹" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast 活动炸弹
+END
+VER 3 0000000000000047 "火球炎爆" "SPELL_FIRE_FLAMEBOLT"
+/cast 火球术
+END
+VER 3 0000000000000048 "炎爆" "INV_MISC_QUESTIONMARK"
+/script PickupSpell(92315)
+END
+VER 3 000000000000004A "炎爆术" "INV_SWORD_1H_ORGRIMMARRAID_D_03"
+/script UIErrorsFrame:Hide()
+/castsequence reset=0 16,火球术
+/use !炎爆术!
+END
+VER 3 000000000000004B "燃烧" "SPELL_FIRE_SEALOFFIRE"
+#showtooltip 燃烧
+/cast 燃烧
+/use 14
+END
+VER 3 0000000000000051 "爆发" "458972"
+/cast 战吼
+/cast 血性狂怒
+/cast 天神下凡
+END
+VER 3 0000000000000052 "爆发" "458972"
+/cast 战吼
+/cast 天神下凡
+END
+VER 3 000000000000002E "老板" "ABILITY_DUALWIELD"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function() local t=GetTime() if t-T>60 then SendChatMessage("小潜潜25人奥格G团1-11打H，14号战蝎坐骑老板，装备234W~","channel",nil,5) T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000002F "自己绷带" "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover]厚风绒绷带
+/cast [target=kk]厚风绒绷带
+END
+VER 3 00000000000000A1 "解散水元素" "132130"
+/script PetDismiss ()
+END
+VER 3 0000000000000030 "误导宏" "INV_Misc_QuestionMark"
+#showtooltip
+ 误导
+/cast [target=focus] 误导
+END
+VER 3 0000000000000053 "跟随" "134400"
+/target 别封我号啊
+/跟随
+END
+VER 3 0000000000000054 "防掉线宏" "132109"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
+END

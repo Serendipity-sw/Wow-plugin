@@ -1,0 +1,973 @@
+
+KUIDataPerCharDB = {
+	["talents"] = {
+		["pve"] = {
+			{
+				{
+					{
+						["talentID"] = 23106,
+						["name"] = "猛虎之眼",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 196607,
+						["texture"] = 236165,
+					}, -- [1]
+					{
+						["talentID"] = 19820,
+						["name"] = "真气波",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 115098,
+						["texture"] = 606541,
+					}, -- [2]
+					{
+						["talentID"] = 20185,
+						["name"] = "真气爆裂",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 123986,
+						["texture"] = 135734,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 19304,
+						["name"] = "动如脱兔",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 115173,
+						["texture"] = 607848,
+					}, -- [1]
+					{
+						["talentID"] = 19818,
+						["name"] = "真气突",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 115008,
+						["texture"] = 607849,
+					}, -- [2]
+					{
+						["talentID"] = 19302,
+						["name"] = "迅如猛虎",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 116841,
+						["texture"] = 651727,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22099,
+						["name"] = "光明之酿",
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 196721,
+						["texture"] = 623777,
+					}, -- [1]
+					{
+						["talentID"] = 22097,
+						["name"] = "喷火",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 242580,
+						["texture"] = 615339,
+					}, -- [2]
+					{
+						["talentID"] = 19992,
+						["name"] = "玄牛酒",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 115399,
+						["texture"] = 629483,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 19993,
+						["name"] = "猛虎扫尾",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 264348,
+						["texture"] = 642414,
+					}, -- [1]
+					{
+						["talentID"] = 19994,
+						["name"] = "玄牛雕像",
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 115315,
+						["texture"] = 627607,
+					}, -- [2]
+					{
+						["talentID"] = 19995,
+						["name"] = "平心之环",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 116844,
+						["texture"] = 839107,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 20174,
+						["name"] = "闪避身法",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 280515,
+						["texture"] = 132096,
+					}, -- [1]
+					{
+						["talentID"] = 23363,
+						["name"] = "金创药",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 122281,
+						["texture"] = 608939,
+					}, -- [2]
+					{
+						["talentID"] = 20175,
+						["name"] = "躯不坏",
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 122278,
+						["texture"] = 620827,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 19819,
+						["name"] = "特别快递",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 196730,
+						["texture"] = 594274,
+					}, -- [1]
+					{
+						["talentID"] = 20184,
+						["name"] = "碧玉疾风",
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 116847,
+						["texture"] = 606549,
+					}, -- [2]
+					{
+						["talentID"] = 22103,
+						["name"] = "玄牛砮皂",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 132578,
+						["texture"] = 608951,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22106,
+						["name"] = "坚定不屈",
+						["available"] = true,
+						["column"] = 7,
+						["selected"] = true,
+						["spellid"] = 196737,
+						["texture"] = 627605,
+					}, -- [1]
+					{
+						["talentID"] = 22104,
+						["name"] = "金钟罩",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 115295,
+						["texture"] = 611417,
+					}, -- [2]
+					{
+						["talentID"] = 22108,
+						["name"] = "幻灭连击",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 196736,
+						["texture"] = 574568,
+					}, -- [3]
+				}, -- [7]
+			}, -- [1]
+			{
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [7]
+			}, -- [2]
+			{
+				{
+					{
+						["talentID"] = 23106,
+						["name"] = "猛虎之眼",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 196607,
+						["texture"] = 236165,
+					}, -- [1]
+					{
+						["talentID"] = 19820,
+						["name"] = "真气波",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 115098,
+						["texture"] = 606541,
+					}, -- [2]
+					{
+						["talentID"] = 20185,
+						["name"] = "真气爆裂",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 123986,
+						["texture"] = 135734,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 19304,
+						["name"] = "动如脱兔",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 115173,
+						["texture"] = 607848,
+					}, -- [1]
+					{
+						["talentID"] = 19818,
+						["name"] = "真气突",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 115008,
+						["texture"] = 607849,
+					}, -- [2]
+					{
+						["talentID"] = 19302,
+						["name"] = "迅如猛虎",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 116841,
+						["texture"] = 651727,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22098,
+						["name"] = "真气升腾",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 115396,
+						["texture"] = 629482,
+					}, -- [1]
+					{
+						["talentID"] = 19771,
+						["name"] = "白虎拳",
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 261947,
+						["texture"] = 2065583,
+					}, -- [2]
+					{
+						["talentID"] = 22096,
+						["name"] = "豪能酒",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 115288,
+						["texture"] = 608938,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 19993,
+						["name"] = "猛虎扫尾",
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 264348,
+						["texture"] = 642414,
+					}, -- [1]
+					{
+						["talentID"] = 23364,
+						["name"] = "善恶有报",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 280195,
+						["texture"] = 651728,
+					}, -- [2]
+					{
+						["talentID"] = 19995,
+						["name"] = "平心之环",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 116844,
+						["texture"] = 839107,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 23258,
+						["name"] = "铁布衫",
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 261767,
+						["texture"] = 1381295,
+					}, -- [1]
+					{
+						["talentID"] = 20173,
+						["name"] = "散魔功",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 122783,
+						["texture"] = 775460,
+					}, -- [2]
+					{
+						["talentID"] = 20175,
+						["name"] = "躯不坏",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 122278,
+						["texture"] = 620827,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 22093,
+						["name"] = "连击",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 196740,
+						["texture"] = 574573,
+					}, -- [1]
+					{
+						["talentID"] = 23122,
+						["name"] = "碧玉疾风",
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 116847,
+						["texture"] = 606549,
+					}, -- [2]
+					{
+						["talentID"] = 22102,
+						["name"] = "白虎下凡",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 123904,
+						["texture"] = 620832,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22107,
+						["name"] = "灵魂专注",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 280197,
+						["texture"] = 136038,
+					}, -- [1]
+					{
+						["talentID"] = 22105,
+						["name"] = "升龙霸",
+						["available"] = true,
+						["column"] = 7,
+						["selected"] = true,
+						["spellid"] = 152175,
+						["texture"] = 988194,
+					}, -- [2]
+					{
+						["talentID"] = 21191,
+						["name"] = "屏气凝神",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 152173,
+						["texture"] = 988197,
+					}, -- [3]
+				}, -- [7]
+			}, -- [3]
+		},
+	},
+}
+nodes = {
+	{
+		["state"] = 1,
+		["name"] = "先知神殿，祖达萨",
+		["position"] = {
+			["y"] = 0.621571600437164,
+			["x"] = 0.528899908065796,
+		},
+		["nodeID"] = 2027,
+		["slotIndex"] = 12,
+	}, -- [1]
+	{
+		["state"] = 1,
+		["name"] = "洛阿神灵之园，祖达萨",
+		["position"] = {
+			["y"] = 0.508675038814545,
+			["x"] = 0.528696537017822,
+		},
+		["nodeID"] = 2045,
+		["slotIndex"] = 13,
+	}, -- [2]
+	{
+		["state"] = 1,
+		["name"] = "阿塔达萨，祖达萨",
+		["position"] = {
+			["y"] = 0.567464172840118,
+			["x"] = 0.506480813026428,
+		},
+		["nodeID"] = 2046,
+		["slotIndex"] = 14,
+	}, -- [3]
+	{
+		["state"] = 1,
+		["name"] = "碎枝林地，祖达萨",
+		["position"] = {
+			["y"] = 0.565811097621918,
+			["x"] = 0.586295485496521,
+		},
+		["nodeID"] = 2061,
+		["slotIndex"] = 15,
+	}, -- [4]
+	nil, -- [5]
+	nil, -- [6]
+	{
+		["state"] = 1,
+		["name"] = "求知者岗哨，祖达萨",
+		["position"] = {
+			["y"] = 0.750055134296417,
+			["x"] = 0.657138347625732,
+		},
+		["nodeID"] = 2075,
+		["slotIndex"] = 18,
+	}, -- [7]
+	{
+		["state"] = 1,
+		["name"] = "阿塔格罗尔，祖达萨",
+		["position"] = {
+			["y"] = 0.602582156658173,
+			["x"] = 0.71610027551651,
+		},
+		["nodeID"] = 2076,
+		["slotIndex"] = 19,
+	}, -- [8]
+	{
+		["state"] = 1,
+		["name"] = "沃里克的圣殿，沃顿",
+		["position"] = {
+			["y"] = 0.196501612663269,
+			["x"] = 0.384736955165863,
+		},
+		["nodeID"] = 2111,
+		["slotIndex"] = 20,
+	}, -- [9]
+	{
+		["state"] = 1,
+		["name"] = "狐人藏身处，沃顿",
+		["position"] = {
+			["y"] = 0.267309606075287,
+			["x"] = 0.433108627796173,
+		},
+		["nodeID"] = 2117,
+		["slotIndex"] = 21,
+	}, -- [10]
+	{
+		["state"] = 1,
+		["name"] = "阿昆达神殿，沃顿",
+		["position"] = {
+			["y"] = 0.466057538986206,
+			["x"] = 0.416946470737457,
+		},
+		["nodeID"] = 2118,
+		["slotIndex"] = 22,
+	}, -- [11]
+	{
+		["state"] = 1,
+		["name"] = "虔敬者圣殿，沃顿",
+		["position"] = {
+			["y"] = 0.272470474243164,
+			["x"] = 0.286909341812134,
+		},
+		["nodeID"] = 2119,
+		["slotIndex"] = 23,
+	}, -- [12]
+	{
+		["state"] = 1,
+		["name"] = "托塔卡避难所，沃顿",
+		["position"] = {
+			["y"] = 0.129225611686707,
+			["x"] = 0.457452833652496,
+		},
+		["nodeID"] = 2120,
+		["slotIndex"] = 24,
+	}, -- [13]
+	{
+		["state"] = 1,
+		["name"] = "鳞商驿站，祖达萨",
+		["position"] = {
+			["y"] = 0.529171586036682,
+			["x"] = 0.659199595451355,
+		},
+		["nodeID"] = 2126,
+		["slotIndex"] = 25,
+	}, -- [14]
+	{
+		["state"] = 1,
+		["name"] = "沙灼岗哨，沃顿",
+		["position"] = {
+			["y"] = 0.400122284889221,
+			["x"] = 0.367978453636169,
+		},
+		["nodeID"] = 2143,
+		["slotIndex"] = 26,
+	}, -- [15]
+	{
+		["state"] = 1,
+		["name"] = "金牙旅馆，沃顿",
+		["position"] = {
+			["y"] = 0.326042175292969,
+			["x"] = 0.362227141857147,
+		},
+		["nodeID"] = 2144,
+		["slotIndex"] = 27,
+	}, -- [16]
+	nil, -- [17]
+	{
+		["state"] = 1,
+		["name"] = "毒牙岛，祖达萨",
+		["position"] = {
+			["y"] = 0.884686231613159,
+			["x"] = 0.557905912399292,
+		},
+		["nodeID"] = 2164,
+		["slotIndex"] = 29,
+	}, -- [18]
+	{
+		["state"] = 1,
+		["name"] = "獠牙岛，祖达萨",
+		["position"] = {
+			["y"] = 0.828585743904114,
+			["x"] = 0.588409066200256,
+		},
+		["nodeID"] = 2165,
+		["slotIndex"] = 30,
+	}, -- [19]
+	{
+		["state"] = 1,
+		["name"] = "拉斯塔利战港，祖达萨",
+		["position"] = {
+			["y"] = 0.719248294830322,
+			["x"] = 0.519427061080933,
+		},
+		["nodeID"] = 2009,
+		["slotIndex"] = 11,
+	}, -- [20]
+	{
+		["state"] = 1,
+		["name"] = "泽布阿里，祖达萨",
+		["position"] = {
+			["y"] = 0.441012322902679,
+			["x"] = 0.699749946594238,
+		},
+		["nodeID"] = 1975,
+		["slotIndex"] = 10,
+	}, -- [21]
+	{
+		["state"] = 1,
+		["name"] = "希巴拉，祖达萨",
+		["position"] = {
+			["y"] = 0.792817890644074,
+			["x"] = 0.498502910137177,
+		},
+		["nodeID"] = 1974,
+		["slotIndex"] = 9,
+	}, -- [22]
+	{
+		["state"] = 1,
+		["name"] = "战兽栏，祖达萨",
+		["position"] = {
+			["y"] = 0.612099468708038,
+			["x"] = 0.637232542037964,
+		},
+		["nodeID"] = 1966,
+		["slotIndex"] = 8,
+	}, -- [23]
+	{
+		["state"] = 1,
+		["name"] = "祖尔加，纳兹米尔",
+		["position"] = {
+			["y"] = 0.410193920135498,
+			["x"] = 0.536140978336334,
+		},
+		["nodeID"] = 1953,
+		["slotIndex"] = 1,
+	}, -- [24]
+	{
+		["state"] = 1,
+		["name"] = "佐巴尔废墟，纳兹米尔",
+		["position"] = {
+			["y"] = 0.274902701377869,
+			["x"] = 0.540839314460754,
+		},
+		["nodeID"] = 1954,
+		["slotIndex"] = 2,
+	}, -- [25]
+	{
+		["state"] = 1,
+		["name"] = "林荫巨木，纳兹米尔",
+		["position"] = {
+			["y"] = 0.276914536952972,
+			["x"] = 0.644463181495667,
+		},
+		["nodeID"] = 1955,
+		["slotIndex"] = 3,
+	}, -- [26]
+	{
+		["state"] = 1,
+		["name"] = "荒弃废墟，纳兹米尔",
+		["position"] = {
+			["y"] = 0.212229907512665,
+			["x"] = 0.700735569000244,
+		},
+		["nodeID"] = 1956,
+		["slotIndex"] = 4,
+	}, -- [27]
+	{
+		["state"] = 1,
+		["name"] = "赞达拉港，祖达萨",
+		["position"] = {
+			["y"] = 0.711371064186096,
+			["x"] = 0.584175288677216,
+		},
+		["nodeID"] = 1957,
+		["slotIndex"] = 5,
+	}, -- [28]
+	{
+		["state"] = 0,
+		["name"] = "巨擘封印",
+		["position"] = {
+			["y"] = 0.610964596271515,
+			["x"] = 0.583273828029633,
+		},
+		["nodeID"] = 1959,
+		["slotIndex"] = 6,
+	}, -- [29]
+	{
+		["state"] = 1,
+		["name"] = "奈辛瓦里狩猎场，祖达萨",
+		["position"] = {
+			["y"] = 0.45532763004303,
+			["x"] = 0.631022572517395,
+		},
+		["nodeID"] = 1965,
+		["slotIndex"] = 7,
+	}, -- [30]
+	{
+		["state"] = 1,
+		["name"] = "雪林教堂，德鲁斯瓦",
+		["position"] = {
+			["y"] = 0.536648988723755,
+			["x"] = 0.283707559108734,
+		},
+		["nodeID"] = 2109,
+		["slotIndex"] = 12,
+	}, -- [31]
+	{
+		["state"] = 0,
+		["name"] = "安利港，德鲁斯瓦",
+		["position"] = {
+			["y"] = 0.654885292053223,
+			["x"] = 0.254263937473297,
+		},
+		["nodeID"] = 2127,
+		["slotIndex"] = 13,
+	}, -- [32]
+	{
+		["state"] = 1,
+		["name"] = "卡兹弗拉兹岗哨，德鲁斯瓦",
+		["position"] = {
+			["y"] = 0.570263862609863,
+			["x"] = 0.336312174797058,
+		},
+		["nodeID"] = 2135,
+		["slotIndex"] = 14,
+	}, -- [33]
+	{
+		["state"] = 1,
+		["name"] = "落风洞窟，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.132366597652435,
+			["x"] = 0.593475461006165,
+		},
+		["nodeID"] = 2139,
+		["slotIndex"] = 15,
+	}, -- [34]
+	{
+		["state"] = 1,
+		["name"] = "劫掠港，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.631741523742676,
+			["x"] = 0.701824188232422,
+		},
+		["nodeID"] = 2140,
+		["slotIndex"] = 16,
+	}, -- [35]
+	{
+		["state"] = 1,
+		["name"] = "消逝冰川，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.448292136192322,
+			["x"] = 0.424144446849823,
+		},
+		["nodeID"] = 2273,
+		["slotIndex"] = 17,
+	}, -- [36]
+	{
+		["state"] = 1,
+		["name"] = "猎泥海湾，德鲁斯瓦",
+		["position"] = {
+			["y"] = 0.538157820701599,
+			["x"] = 0.447974562644959,
+		},
+		["nodeID"] = 2275,
+		["slotIndex"] = 19,
+	}, -- [37]
+	{
+		["state"] = 1,
+		["name"] = "托尔达戈，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.593490779399872,
+			["x"] = 0.784660995006561,
+		},
+		["nodeID"] = 2276,
+		["slotIndex"] = 20,
+	}, -- [38]
+	{
+		["state"] = 1,
+		["name"] = "石拳岗哨，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.703032851219177,
+			["x"] = 0.502966344356537,
+		},
+		["nodeID"] = 2279,
+		["slotIndex"] = 21,
+	}, -- [39]
+	{
+		["state"] = 1,
+		["name"] = "狼穴，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.420111417770386,
+			["x"] = 0.554482460021973,
+		},
+		["nodeID"] = 2062,
+		["slotIndex"] = 2,
+	}, -- [40]
+	{
+		["state"] = 1,
+		["name"] = "落木哨站，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.639008462429047,
+			["x"] = 0.613322257995606,
+		},
+		["nodeID"] = 2067,
+		["slotIndex"] = 3,
+	}, -- [41]
+	{
+		["state"] = 1,
+		["name"] = "船难海角，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.804510891437531,
+			["x"] = 0.696521282196045,
+		},
+		["nodeID"] = 2077,
+		["slotIndex"] = 4,
+	}, -- [42]
+	{
+		["state"] = 1,
+		["name"] = "自由镇，提拉加德海峡",
+		["position"] = {
+			["y"] = 0.815879940986633,
+			["x"] = 0.642175197601318,
+		},
+		["nodeID"] = 2023,
+		["slotIndex"] = 1,
+	}, -- [43]
+	{
+		["state"] = 1,
+		["name"] = "求知者之眺，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.176349878311157,
+			["x"] = 0.500796914100647,
+		},
+		["nodeID"] = 2089,
+		["slotIndex"] = 5,
+	}, -- [44]
+	{
+		["state"] = 1,
+		["name"] = "丘冠牧场，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.364096462726593,
+			["x"] = 0.557302296161652,
+		},
+		["nodeID"] = 2090,
+		["slotIndex"] = 6,
+	}, -- [45]
+	{
+		["state"] = 1,
+		["name"] = "石牙岗哨，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.305214583873749,
+			["x"] = 0.49532812833786,
+		},
+		["nodeID"] = 2091,
+		["slotIndex"] = 7,
+	}, -- [46]
+	{
+		["state"] = 1,
+		["name"] = "恐牙洞窟，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.228725612163544,
+			["x"] = 0.564152359962463,
+		},
+		["nodeID"] = 2092,
+		["slotIndex"] = 8,
+	}, -- [47]
+	{
+		["state"] = 1,
+		["name"] = "铁锤哨点，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.293565034866333,
+			["x"] = 0.660834193229675,
+		},
+		["nodeID"] = 2093,
+		["slotIndex"] = 9,
+	}, -- [48]
+	{
+		["state"] = 1,
+		["name"] = "战牙要塞，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.160594642162323,
+			["x"] = 0.551549792289734,
+		},
+		["nodeID"] = 2094,
+		["slotIndex"] = 10,
+	}, -- [49]
+	{
+		["state"] = 1,
+		["name"] = "风暴神殿，斯托颂谷地",
+		["position"] = {
+			["y"] = 0.118690669536591,
+			["x"] = 0.669809281826019,
+		},
+		["nodeID"] = 2095,
+		["slotIndex"] = 11,
+	}, -- [50]
+	{
+		["state"] = 1,
+		["name"] = "疾风岗哨，德鲁斯瓦",
+		["position"] = {
+			["y"] = 0.725195527076721,
+			["x"] = 0.467356443405151,
+		},
+		["nodeID"] = 2274,
+		["slotIndex"] = 18,
+	}, -- [51]
+}
+fcontinent = {
+	[572] = true,
+	[875] = false,
+	[13] = true,
+	[12] = true,
+	[876] = false,
+	[619] = true,
+	[948] = true,
+}
+Mail_Senders = {
+	[""] = 3,
+}
+Mail_Count = 0

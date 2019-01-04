@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/440/62/62/636142158871422044.jpg",
+			"name": "Postal",
+			"fileName": "postal",
+			"description": "Postal: Enhanced Mailbox support"
+		}
+	],
+	"ipMap": [],
+	"version": "3.6.0",
+	"mapping": "Postal"
+}

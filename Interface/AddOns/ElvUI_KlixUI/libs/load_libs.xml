@@ -1,0 +1,1 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">	<Include file="LibTourist-3.0\lib.xml"/>	<script file="LibElv-GameMenu-1.0\LibElv-GameMenu-1.0.lua"/>	<script file="LibRealmInfo\LibRealmInfo.lua"/>	<Include file="LibCustomGlow-1.0\LibCustomGlow-1.0.lua"/></Ui>

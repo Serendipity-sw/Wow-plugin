@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/60/622/62/62/636141561314081253.png",
+			"name": "Wholly",
+			"fileName": "wholly",
+			"description": "Shows quests in zones and puts pins on maps where quest givers are."
+		}
+	],
+	"ipMap": [],
+	"version": "069",
+	"mapping": "Wholly"
+}

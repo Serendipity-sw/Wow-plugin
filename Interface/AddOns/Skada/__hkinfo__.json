@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/287/62/62/636142135917313783.png",
+			"name": "Skada Damage Meter",
+			"fileName": "skada",
+			"description": "Modular damage meter."
+		}
+	],
+	"ipMap": [],
+	"version": "1.7.5",
+	"mapping": "Skada Damage Meter"
+}

@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/151/36/62/62/636601033236509495.png",
+			"name": "ElvUI_KlixUI",
+			"fileName": "elvui_klixui-2-0",
+			"description": "KlixUI is an external mod for ElvUI. Adding different frame styles, interchangeable actionsbars, new textures and fonts."
+		}
+	],
+	"ipMap": [],
+	"version": "1.44^^2018-12-29 23:28:51",
+	"mapping": "ElvUI_KlixUI"
+}

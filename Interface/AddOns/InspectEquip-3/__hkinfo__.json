@@ -1,0 +1,20 @@
+{
+	"ipMap": [],
+	"version": "3.0.11",
+	"mapping": "InspectEquip 3",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "InspectEquip 3",
+			"fileName": "inspectequip-3",
+			"description": "Shows where the equipment of inspected users or yourself is from."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/393/62/62/636142151142516943.jpg",
+			"name": "InspectEquip",
+			"fileName": "inspect-equip",
+			"description": "Shows where the equipment of inspected users or yourself is from."
+		}
+	]
+}

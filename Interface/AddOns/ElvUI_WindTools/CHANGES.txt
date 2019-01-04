@@ -1,0 +1,10 @@
+lightweight tag fbbd2c91aad7ce5271a48ac943576ca09fbaf9e4 1.3.6
+Author:	GitHub <noreply@github.com>
+Date:	Fri Dec 28 13:14:55 2018 +0900
+
+commit 20de7135a0bf1cbf090ec1480e6735cb6d2c4262
+Author: Zhou Fang <houshuu@live.jp>
+Date:   Thu Dec 27 10:48:41 2018 +0900
+
+    完善艾泽里特特质提示移植
+

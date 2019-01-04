@@ -1,0 +1,10 @@
+ElvUI_EverySecondCounts: disabled
+AllTheThings: enabled
+AngryKeystones: enabled
+Bagnon: disabled
+Bagnon_Config: disabled
+Bagnon_GuildBank: disabled
+Bagnon_VoidStorage: disabled
+vQueue: disabled
+VuhDo: disabled
+VuhDoOptions: disabled

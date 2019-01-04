@@ -1,0 +1,583 @@
+VER 3 0000000000000084 " " "INV_Misc_QuestionMark"
+#showtooltip 真言术：慰(天赋)
+/cast [nohelp,exists] 真言术：慰(天赋);[@targettarget] 真言术：慰(天赋)
+END
+VER 3 0000000000000085 " " "INV_Misc_QuestionMark"
+#showtooltip 苦修
+/cast [nohelp,exists] 苦修;[@targettarget] 苦修
+END
+VER 3 0000000000000083 " " "INV_Misc_QuestionMark"
+#showtooltip 假死 
+/stopcasting 
+/stopcasting 
+/cast 假死
+END
+VER 3 000000000000009C " " "135907"
+/cast [noharm]快速治疗;驱散魔法
+END
+VER 3 000000000000009B " " "INV_Misc_QuestionMark"
+#showtooltip 暗影魔
+/cast [harm][target=targettarget,harm] 暗影魔
+END
+VER 3 000000000000009A " " "INV_Misc_QuestionMark"
+#showtooltip 圣言术：罚
+/cast [nohelp,exists] 圣言术：罚;[@targettarget] 圣言术：罚
+END
+VER 3 0000000000000099 " " "INV_Misc_QuestionMark"
+#showtooltip 惩击
+/cast [harm]惩击
+/cast [help,target=targettarget]惩击 
+/cast [target=targettarget]惩击
+END
+VER 3 0000000000000098 " " "134400"
+/cast [noharm]真言术：盾;惩击
+END
+VER 3 0000000000000097 " " "135944"
+/cast [noharm]愈合祷言;暗言术：痛
+END
+VER 3 0000000000000096 " " "458230"
+/施放 沉默
+/S 我已经打断%t  下个接上~不要在意细节,我是打酱油的.{花痴}
+END
+VER 3 0000000000000095 " " "135913"
+/cast [noharm]治疗术;惩击
+END
+VER 3 0000000000000094 " " "135907"
+/cast [noharm]快速治疗;神圣之火
+END
+VER 3 0000000000000093 " " "INV_Misc_QuestionMark"
+#showtooltip 闪现术
+/stopcasting
+/cast 闪现术
+END
+VER 3 0000000000000092 " " "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障                                
+/stopcasting 
+/cancelAura 寒冰屏障 
+/cast 寒冰屏障
+END
+VER 3 0000000000000091 " " "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast 假死
+END
+VER 3 0000000000000090 " " "132208"
+/施放 急速射击
+/use 跳动的山脉之心
+END
+VER 3 000000000000008F " " "INV_Misc_QuestionMark"
+#showtooltip 纯净术
+/cast [noharm] 纯净术
+/cast [harm] 驱散魔法
+END
+VER 3 000000000000008E " " "134400"
+/施放 消散
+/cancelaura 消散
+END
+VER 3 000000000000008D " " "134400"
+/use 觉醒火盆
+/团队 我放了觉醒火盆...请勿重复.
+/Y 火盆....盆.....盆....
+/RW 我放了觉醒火盆...请勿重复.
+END
+VER 3 000000000000008C " " "134400"
+/focus [modifier:shift] 
+/stopmacro [modifier:shift] 
+/施放 [target=focus,help][help][target=targettarget,help][target=pet]误导 
+/script local u,t=UnitName,"focus";t=u(t);if not t then t=u("targettarget");end;if t then SendChatMessage("我已误导 "..t,"yell");end
+END
+VER 3 000000000000008B " " "INV_Misc_QuestionMark"
+#showtooltip 恶魔变形
+/use 延时之力药水
+/施放 混乱之刃
+/施放 涅墨西斯
+/施放 恶魔变形
+END
+VER 3 000000000000008A " " "134400"
+/cast [noharm]净化疾病;驱散魔法
+END
+VER 3 0000000000000089 " " "INV_Misc_QuestionMark"
+#showtooltip 复仇回避
+/施放 混乱打击
+/施放 复仇回避
+END
+VER 3 0000000000000088 " " "INV_Misc_QuestionMark"
+#showtooltip 精神灼烧
+/cast [nochanneling] 精神灼烧
+END
+VER 3 0000000000000087 " " "133192"
+/施放 荣耀圣令
+/use 治疗石
+END
+VER 3 000000000000007C " " "237518"
+/tar 寒冰之球
+/CAST 符文打击
+END
+VER 3 000000000000007D " " "134400"
+/
+/CAST 盾牌猛击
+END
+VER 3 000000000000007E " " "132345"
+/施放 狂怒回复
+/use 治疗滋补剂
+END
+VER 3 000000000000007F " " "134400"
+/cast 顺劈斩
+/cast 英勇投掷
+END
+VER 3 0000000000000080 " " "INV_Misc_QuestionMark"
+#showtooltip [pet] 冰冻术
+#showtooltip [nopet] 召唤水元素
+/cast [nopet] 召唤水元素
+/click [pet] PetActionButton5
+END
+VER 3 0000000000000081 " " "INV_Misc_QuestionMark"
+#showtooltip 惩击
+/cast [nohelp,exists] 惩击;[@targettarget] 惩击
+END
+VER 3 0000000000000082 " " "INV_Misc_QuestionMark"
+#showtooltip 神圣之火 
+/cast [nohelp,exists] 神圣之火;[@targettarget] 神圣之火
+END
+VER 3 0000000000000086 " " "134400"
+/cast [noharm]纯净术;驱散魔法
+END
+VER 3 000000000000009D "  " "134400"
+/cast [noharm]治疗之涌;风暴打击
+END
+VER 3 000000000000009E " 123" "236318"
+/TAR 小鱼戏龙门-奥尔加隆
+/CAST 警戒
+END
+VER 3 000000000000009F " 3213" "134400"
+/script T,F=T or 0,ForCreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1thenStaticPopup1Button1:Click()T=t end end end F:SetScript 
+("OnUpdate",X)
+END
+VER 3 00000000000000A0 " A-2" "603532"
+/施放 鲁莽
+/use 岩石之心索拉苏斯
+/use 好战角斗士的同化徽章
+/施放 浴血奋战
+/施放 天神下凡
+END
+VER 3 00000000000000A1 "1" "236318"
+/TAR 
+/cast 警戒
+/W Res-狂热之刃 警戒已给，保佑你~
+END
+VER 3 00000000000000A2 "123" "132155"
+/目标 苏里克夏
+/施放 嘲讽
+END
+VER 3 00000000000000A3 "12315" "INV_Misc_QuestionMark"
+#showtooltips 凛风冲击
+/startattack
+/castsequence reset=0 0,0,0,冰霜打击
+/castsequence reset=0 0,0,暗影打击
+/castsequence reset=0 凛风冲击
+/cast 冰霜之柱
+/cast 冰霜打击
+/use 10
+/changeactionbar 2
+END
+VER 3 00000000000000A4 "2T12" "135328"
+/equipset 2件套BUFF
+END
+VER 3 00000000000000A5 "3rd" "INV_Misc_QuestionMark"
+#showtooltip
+/use 错愕怒吼
+/use 刺耳怒吼
+/use 瓦解怒吼
+/run SetMacroSpell("3rd", GetSpellInfo ("错愕怒吼") or GetSpellInfo ("刺耳怒吼") or "瓦解怒吼")
+END
+VER 3 00000000000000A6 "4th" "INV_Misc_QuestionMark"
+#showtooltip
+/use 巨龙怒吼
+/use 震荡波
+/use 剑刃风暴
+/run SetMacroSpell("4th", GetSpellInfo ("巨龙怒吼") or GetSpellInfo ("震荡波") or "剑刃风暴")
+END
+VER 3 00000000000000A7 "BF_Mount" "132226"
+/bfmount
+END
+VER 3 00000000000000A8 "BF_Pet" "236701"
+/BFPET
+END
+VER 3 00000000000000A9 "dad" "132269"
+/目标 丶东门吹血
+/施放 嫁祸诀窍
+END
+VER 3 00000000000000AA "DBM" "134400"
+/DBM PULL 10
+END
+VER 3 00000000000000AB "TANK爆发" "INV_Misc_QuestionMark"
+#showtooltip 颅骨战旗
+/cast 颅骨战旗
+/cast 鲁莽
+/cast 血性狂怒
+END
+VER 3 00000000000000AC "T战士" "236318"
+/TAR Tenderleast
+/cast 警戒
+/W  Tenderleast    警戒已给   大哥保佑你.
+END
+VER 3 00000000000000AD "一键输出" "INV_Misc_QuestionMark"
+#showtooltip 冲锋
+/startattack
+/castsequence reset=0 0,0,0,0,0,0,狂风打击
+/castsequence reset=0 0,0,0,0,狂暴之怒
+/castsequence reset=0 0,0,怒击
+/castsequence reset=0 0,嗜血
+/castsequence reset=6/combat/target 巨人打击,英勇打击,英勇打击,英勇打击,英勇打击,
+/施放 冲锋
+END
+VER 3 00000000000000AE "伺机待发" "INV_Misc_QuestionMark"
+#showtooltip 伺机待发
+/cast [nostealth] 闪避 
+/stopcasting 
+/cast 疾跑 
+/stopcasting 
+/cast 伺机待发
+END
+VER 3 00000000000000AF "保命" "134400"
+/console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 00000000000000B0 "刀扇" "INV_Misc_QuestionMark"
+#showtooltip 刀扇
+/startattack
+/stopcasting
+/cast 刀扇
+/stopcasting
+/script UIErrorsFrame:Clear()
+END
+VER 3 00000000000000B1 "刷人" "134400"
+/2 刺猬不疯，逆境黑妹，尼玛大过年的出来骗卡，早晚会遭到报应的，祝你今年死你加人会死一户口本
+/5 刺猬不疯，逆境黑妹，尼玛大过年的出来骗卡，早晚会遭到报应的，祝你今年死你加人会死一户口本
+END
+VER 3 00000000000000B2 "刺骨" "INV_Misc_QuestionMark"
+#showtooltip 刺骨
+/stopcasting 
+/startattack
+/cast [harm]刺骨
+/use 10
+/cancelaura 保护之手
+/script UIErrorsFrame:Clear() 
+END
+VER 3 00000000000000B3 "剑刃风暴" "236304"
+/cast 浴血奋战
+/cast 剑刃风暴
+END
+VER 3 00000000000000B4 "去红字" "538039"
+/script UIErrorsFrame:Hide()
+END
+VER 3 00000000000000B5 "取消" "603962"
+/取消 雪怒之捷
+END
+VER 3 00000000000000B6 "取消披风" "413587"
+/cancelaura 雪怒之捷
+END
+VER 3 00000000000000B7 "喊话" "132344"
+END
+VER 3 00000000000000B8 "嘲讽" "INV_Misc_QuestionMark"
+#showtooltip 嘲讽
+/cast 嘲讽
+/script SetRaidTarget('target',6)
+END
+VER 3 00000000000000B9 "回血" "INV_Misc_QuestionMark"
+#showtooltip 治疗石
+/use 神效治疗药水
+/use 治疗石
+END
+VER 3 00000000000000BA "坐骑" "132226"
+/RandomMount
+END
+VER 3 00000000000000BB "复仇" "INV_Misc_QuestionMark"
+#showtooltip 复仇
+/startattack
+/stopcasting
+/cast 复仇
+/stopcasting
+END
+VER 3 0000000000000065 "多重" "INV_Misc_QuestionMark"
+#showtooltip 多重射击
+/startattack
+/cast 多重射击
+END
+VER 3 0000000000000066 "多重" "INV_Misc_QuestionMark"
+#showtooltip 多重射击
+/cast [@mouseover,nodead,harm,exists]多重射击;多重射击;
+END
+VER 3 00000000000000BC "大姨妈" "INV_Misc_QuestionMark"
+#showtooltip 浴血奋战
+/cast 浴血奋战
+/cast 血性狂怒
+/cast 13
+END
+VER 3 00000000000000BD "大风车" "INV_Misc_QuestionMark"
+#showtooltip 剑刃风暴
+/cast 剑刃风暴
+/cancelaura 剑刃风暴
+END
+VER 3 0000000000000067 "奇美" "INV_Misc_QuestionMark"
+#showtooltip 奇美拉射击
+/cancelaura 威慑
+/cancelaura 保护之手
+/cast [nochanneling:弹幕射击] 奇美拉射击
+END
+VER 3 0000000000000068 "奥2" "INV_Misc_QuestionMark"
+#showtooltip 瞄准射击
+/startattack
+/petattack
+/cast 急速射击
+/castsequence reset=5 瞄准射击,稳固射击,稳固射击
+/castsequence reset=9 奇美拉射击,稳固射击,稳固射击
+/castsequence reset=15 飞刃,稳固射击,稳固射击
+/castsequence reset=30 夺命黑鸦,稳固射击,稳固射击
+END
+VER 3 0000000000000069 "奥射" "132218"
+/cast 奥术射击
+/cast 无懈警戒手套
+END
+VER 3 000000000000006A "奥强" "136048"
+/cast 奥术强化
+/cast 法力宝石
+END
+VER 3 00000000000000BE "姿态" "132341"
+/stopcasting 
+/cast 狂暴姿态
+/stopcasting
+/cast 战斗姿态
+END
+VER 3 00000000000000BF "嫁祸" "INV_Misc_QuestionMark"
+#showtooltip 嫁祸诀窍
+/cast [modifier:alt,target=focus,exists]嫁祸诀窍;[help][target=targettarget,help]嫁祸诀窍
+END
+VER 3 00000000000000C0 "嫁祸" "236216"
+/click ExtraActionButton1
+END
+VER 3 00000000000000C1 "宏" "132306"
+/stopcasting 
+castsequence reset=target
+/castsequence reset=60 横扫攻击,剑刃风暴
+/cancelaura
+END
+VER 3 00000000000000C2 "宝箱" "254883"
+/way 63.8, 59.2
+/way 65.6, 47.8
+/way 58, 50.8
+/way 55.6, 44.4
+/way 51.2, 46
+/way 46.8, 46.8
+/way 47, 53.7
+/way 44.2, 65.2
+/way 52.8, 63
+/way 53, 70.8
+/way 49.8, 65.8
+/way 60.4, 66.2
+/way 65, 75.6
+/cway 
+END
+VER 3 000000000000006B "审判" "INV_Misc_QuestionMark"
+#showtooltips 审判
+/cast [harm]审判;[target=targettarget]审判
+END
+VER 3 000000000000006C "寒冰护体" "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障
+/stopcasting
+/cancelaura 寒冰屏障
+/cast 寒冰屏障 
+END
+VER 3 000000000000006D "屏蔽" "457742"
+/console SET profanityFilter "0"
+END
+VER 3 000000000000006E "开" "135955"
+/script UIErrorsFrame:hide()
+END
+VER 3 00000000000000C3 "开怪" "132874"
+/dbm pull 10
+END
+VER 3 000000000000006F "强效" "INV_Misc_QuestionMark"
+#showtooltip 强效治疗术
+/cast [@mouseover,help,nodead][help,nodead][@targettarget,help]强效治疗术
+END
+VER 3 00000000000000C4 "影袭" "INV_Misc_QuestionMark"
+#showtooltip 影袭
+/stopcasting 
+/startattack
+/cast [harm]影袭
+/cancelaura 保护之手
+/script UIErrorsFrame:Clear() 
+END
+VER 3 0000000000000070 "征伐" "INV_Misc_QuestionMark"
+#showtooltip 征伐
+/cast 征伐
+/cast 棱彩装饰
+END
+VER 3 00000000000000C5 "德娃" "134400"
+/in 1 /y 独特属性，由你打造   
+/in 2 /说 单挑BOSS，怒刷装备
+/in 3 /说 皇城PK，胜者为王
+/in 4 /说 屠龙宝剑，点击就送
+/in 5 /说 极品装备，一秒刷爆  
+/in 6 /说 幸运抽奖，惊喜不断
+/in 7 /说 经典装备，极品属性
+/in 8 /说 无限刷怪，双倍经验
+/in 9 /说 我不断的洗澡，油腻的师姐在哪里
+END
+VER 3 000000000000000A "怒击" "WARRIOR_WILD_STRIKE"
+#show 怒击
+/startattack
+/use 14
+/castsequence reset=2 怒击,巨龙怒吼
+END
+VER 3 0000000000000071 "惩击" "INV_Misc_QuestionMark"
+#showtooltip 惩击
+/cast [harm,nodead,nomod][@targettarget,harm,nodead,nomod]惩击
+/stopmacro [harm,nodead,nomod][@targettarget,harm,nodead,nomod]
+/targetenemy [nomod]
+/cast [nomod]惩击
+/targetlasttarget [nomod]
+END
+VER 3 00000000000000C6 "战斗" "INV_Misc_QuestionMark"
+#showtooltip 战斗姿态
+/cast 战斗姿态
+/equipset 狂暴DPS
+/cancelaura 剑刃风暴
+/cancelaura 保护之手
+END
+VER 3 00000000000000C9 "打断" "132110"
+/stopcasting
+/target 阴郁的化身
+/cast 拳击
+/targetlasttarget
+END
+VER 3 00000000000000C8 "打断" "589118"
+/施放 瓦解怒吼
+/Y 4组1断已放！！！下位注意
+END
+VER 3 00000000000000C7 "打断" "INV_Misc_QuestionMark"
+#showtooltip 拳击
+/cast [target=focus,exists] 拳击;拳击
+END
+VER 3 0000000000000072 "打断" "INV_Misc_QuestionMark"
+#showtooltip 责难
+/stopcasting 
+/cast [target=focus,exits] 责难; 责难
+/说 超子已断
+END
+VER 3 0000000000000073 "打断" "INV_Misc_QuestionMark"
+#showtooltip 
+/stopcasting 
+/stopcasting
+/cast 反制射击
+/y  我已打断 
+END
+VER 3 0000000000000074 "扣哥" "413590"
+/团队 教主英明
+/团队 文成武德
+/团队 千秋万载
+/团队 一桶浆糊
+END
+VER 3 00000000000000CA "投掷" "132453"
+/cast 英勇投掷
+/cast 英勇打击
+END
+VER 3 00000000000000CB "披风" "INV_Misc_QuestionMark"
+#showtooltips 刚禄，雪怒之力
+/cancelaura 雪怒之捷
+END
+VER 3 00000000000000CC "披风取消" "603962"
+/cancelaura 雪怒之捷  
+END
+VER 3 0000000000000075 "挂机" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
+END
+VER 3 00000000000000CD "挫志" "INV_Misc_QuestionMark"
+#showtooltip 挫志怒吼
+/cast 狂怒回复
+/cast 挫志怒吼
+END
+VER 3 0000000000000076 "挽歌" "1052644"
+/script PlaySoundFile("Sound\\Music\\GlueScreenMusic\\BCCredits_Lament_of_the_Highborne.mp3")
+END
+VER 3 0000000000000077 "控制" "INV_Misc_QuestionMark"
+#showtooltip 翼龙钉刺
+/cast [target=mouseover,exists]翼龙钉刺;翼龙钉刺
+END
+VER 3 00000000000000CE "援护" "132365"
+/TAR 白夜挽歌
+/cast 援护
+END
+VER 3 0000000000000078 "收人" "134400"
+  /5 【听香水榭】  25人团备战5.4，招收时间稳定热爱副本活动  ，有一定装备积累各职业,活动时间   1.2.3.4.5    晚7.30~11.00 ~ 11/13H
+END
+VER 3 0000000000000079 "收人" "134400"
+/5 【听香水榭】、25人团招收各职业精英、要求出勤稳定、FB态度良好、稳定后按装等折算DKP、
+END
+VER 3 00000000000000D0 "教父" "236318"
+/TAR 教灬父
+/cast 警戒
+/W  教灬父   警戒已给   大哥保佑你.
+END
+VER 3 00000000000000CF "教父" "INV_Misc_QuestionMark"
+#showtooltip 警戒
+/cast 警戒
+/目标 教灬父
+/W  教灬父    警戒已给   大哥保佑你.
+END
+VER 3 00000000000000D1 "无CD" "134400"
+/cast [nostance:3]狂暴姿态
+/cast 巨人打击
+END
+VER 3 000000000000000B "暴怒" "ABILITY_WARRIOR_RAMPAGE"
+#show 暴怒
+/cast 暴怒
+/大喊 万能的基督教，万能的耶稣，您忠实的信徒等待您的赏赐。。。。。求您给我核心橙吧。。。。。
+END
+VER 3 000000000000007A "正义之怒" "INV_Misc_QuestionMark"
+#showtooltip 正义之怒 
+/stopcasting 
+/cancelAura 正义之怒 
+/cast 正义之怒
+END
+VER 3 000000000000007B "正义之怒" "134400"
+/cancelaura 正义之怒
+END
+VER 3 00000000000000D2 "武器" "INV_Misc_QuestionMark"
+#showtooltip 战斗姿态
+/cast 战斗姿态
+/equipset 武器DPS
+/cancelaura 剑刃风暴
+END
+VER 3 00000000000000D3 "法阵" "134400"
+/cast [mod:alt]恶魔法阵：召唤;恶魔法阵：传送
+END
+VER 3 00000000000000D4 "消风" "413590"
+/cancelaura 剑刃风暴
+END
+VER 3 00000000000000D5 "火箭" "INV_Misc_QuestionMark"
+#showtooltip 6
+/cast 6
+END
+VER 3 00000000000000D6 "焦点" "134400"
+/focus
+END
+VER 3 00000000000000D7 "焦点投掷" "INV_Misc_QuestionMark"
+#showtooltip 英勇投掷
+/cast [target=focus,exists] 英勇投掷;英勇投掷
+END
+VER 3 00000000000000D8 "爆发" "236701"
+/施放 颅骨战旗
+/施放 天神下凡
+/施放 鲁莽
+END
+VER 3 00000000000000D9 "爆发" "INV_Misc_QuestionMark"
+#showtooltip 鲁莽
+/cast 天神下凡
+/cast 鲁莽
+/cast 血性狂怒
+END
+VER 3 00000000000000DA "特殊技能" "460957"
+/click ExtraActionButton1
+/script SetRaidTarget('target',)
+END

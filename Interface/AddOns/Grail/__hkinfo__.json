@@ -1,0 +1,30 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "/app/image/anvilBlack.png",
+			"name": "Grail",
+			"fileName": "grail",
+			"description": "Library of quest information"
+		}
+	],
+	"ipMap": [
+		"Grail-Achievements",
+		"Grail-Reputations",
+		"Grail-When",
+		"Grail-Rewards",
+		"Grail-Quests-deDE",
+		"Grail-Quests-enUS",
+		"Grail-Quests-esES",
+		"Grail-Quests-esMX",
+		"Grail-Quests-frFR",
+		"Grail-Quests-itIT",
+		"Grail-Quests-koKR",
+		"Grail-Quests-ptBR",
+		"Grail-Quests-ruRU",
+		"Grail-Quests-zhCN",
+		"Grail-Quests-zhTW"
+	],
+	"version": "098",
+	"mapping": "Grail"
+}

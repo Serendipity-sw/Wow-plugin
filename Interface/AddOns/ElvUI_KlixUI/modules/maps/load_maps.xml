@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="minimap.lua"/>
+	<Script file="minimapbuttons.lua"/>
+	<Script file="minimaplocation.lua"/>
+	<Script file="mail.lua"/>
+	<!--Script file="flightq.lua"/-->
+	<Script file="options.lua"/>
+</Ui>

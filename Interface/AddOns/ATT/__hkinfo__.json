@@ -1,0 +1,14 @@
+{
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/171/689/62/62/636731348156476212.png",
+			"name": "Arena Team Tracker",
+			"fileName": "arena-team-tracker",
+			"description": "Tracks and shows all cooldowns of your party (team) members."
+		}
+	],
+	"ipMap": [],
+	"version": "4.1",
+	"mapping": "Arena Team Tracker"
+}

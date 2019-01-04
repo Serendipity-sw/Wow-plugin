@@ -1,0 +1,190 @@
+local KUI, E, L, V, P, G = unpack(select(2, ...))
+local KS = KUI:GetModule("KuiSkins")
+local S = E:GetModule("Skins")
+
+-- Cache global variables
+-- Lua functions
+local _G = _G
+
+-- WoW API / Variables
+
+--Global variables that we don't cache, list them here for the mikk's Find Globals script
+-- GLOBALS:
+
+local function styleQuestFrame()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.quest ~= true or E.private.KlixUI.skins.blizzard.quest ~= true then return; end
+
+	_G["QuestFont"]:SetTextColor(1, 1, 1)
+	------------------------
+	--- QuestDetailFrame ---
+	------------------------
+	_G["QuestDetailScrollFrame"]:StripTextures(true)
+	_G["QuestDetailScrollFrame"]:HookScript("OnUpdate", function(self)
+		if not E.private.skins.parchmentRemover.enable then
+			self.spellTex:SetTexture("")
+		end
+	end)
+
+	if _G["QuestDetailScrollFrame"].spellTex then
+		if not E.private.skins.parchmentRemover.enable then
+			_G["QuestDetailScrollFrame"].spellTex:SetTexture("")
+		end
+	end
+
+	------------------------
+	--- QuestFrameReward ---
+	------------------------
+	_G["QuestRewardScrollFrame"]:HookScript("OnShow", function(self)
+		self.backdrop:Hide()
+		self:SetTemplate("Transparent")
+		if not E.private.skins.parchmentRemover.enable then
+			self.spellTex:SetTexture("")
+			self:Height(self:GetHeight() - 2)
+		end
+	end)
+
+	--------------------------
+	--- QuestFrameProgress ---
+	--------------------------
+	_G["QuestFrame"]:Styling()
+
+	_G["QuestProgressScrollFrame"]:HookScript("OnShow", function(self)
+		self:SetTemplate("Transparent")
+		if not E.private.skins.parchmentRemover.enable then
+			self.spellTex:SetTexture("")
+			self:Height(self:GetHeight() - 2)
+		end
+	end)
+
+	--------------------------
+	--- QuestGreetingFrame ---
+	--------------------------
+	_G["QuestGreetingScrollFrame"]:HookScript("OnShow", function(self)
+		self:SetTemplate("Transparent")
+		if not E.private.skins.parchmentRemover.enable then
+			self.spellTex:SetTexture("")
+			self:Height(self:GetHeight() - 2)
+		end
+	end)
+
+	hooksecurefunc("QuestFrame_SetMaterial", function(frame)
+		_G[frame:GetName().."MaterialTopLeft"]:Hide()
+		_G[frame:GetName().."MaterialTopRight"]:Hide()
+		_G[frame:GetName().."MaterialBotLeft"]:Hide()
+		_G[frame:GetName().."MaterialBotRight"]:Hide()
+	end)
+
+	for i = 1, 16 do
+		local button = _G['QuestTitleButton'..i]
+		if button then
+			hooksecurefunc(button, 'SetFormattedText', function(self)
+				if self:GetFontString() then
+					local Text = self:GetFontString():GetText()
+					if Text and strfind(Text, '|cff000000') then
+						button:GetFontString():SetText(string.gsub(Text, '|cff000000', '|cffffe519'))
+					end
+				end
+			end)
+		end
+	end
+
+	local line = QuestFrameGreetingPanel:CreateTexture()
+	line:SetColorTexture(1, 1, 1, .2)
+	line:SetSize(256, 1)
+	line:SetPoint("CENTER", QuestGreetingFrameHorizontalBreak)
+
+	QuestGreetingFrameHorizontalBreak:SetTexture("")
+
+	QuestFrameGreetingPanel:HookScript("OnShow", function()
+		line:SetShown(QuestGreetingFrameHorizontalBreak:IsShown())
+	end)
+
+	for i = 1, MAX_REQUIRED_ITEMS do
+		local bu = _G["QuestProgressItem"..i]
+		local ic = _G["QuestProgressItem"..i.."IconTexture"]
+		local na = _G["QuestProgressItem"..i.."NameFrame"]
+		local co = _G["QuestProgressItem"..i.."Count"]
+
+		ic:SetSize(40, 40)
+		ic:SetTexCoord(unpack(E.TexCoords))
+		ic:SetDrawLayer("OVERLAY")
+
+		KS:CreateBD(bu, .25)
+
+		na:Hide()
+		co:SetDrawLayer("OVERLAY")
+
+		local line = CreateFrame("Frame", nil, bu)
+		line:SetSize(1, 40)
+		line:SetPoint("RIGHT", ic, 1, 0)
+		KS:CreateBD(line)
+	end
+
+	QuestDetailScrollFrame:SetWidth(302) -- else these buttons get cut off
+
+	hooksecurefunc(QuestProgressRequiredMoneyText, "SetTextColor", function(self, r)
+		if r == 0 then
+			self:SetTextColor(.8, .8, .8)
+		elseif r == .2 then
+			self:SetTextColor(1, 1, 1)
+		end
+	end)
+
+	-- Quest NPC model
+	QuestNPCModelShadowOverlay:Hide()
+	QuestNPCModelBg:Hide()
+	QuestNPCModel:DisableDrawLayer("OVERLAY")
+	QuestNPCModelNameText:SetDrawLayer("ARTWORK")
+	QuestNPCModelTextFrameBg:Hide()
+	QuestNPCModelTextFrame:DisableDrawLayer("OVERLAY")
+
+	-- Hide ElvUI's backdrop
+	if QuestNPCModel.backdrop then QuestNPCModel.backdrop:Hide() end
+	if QuestNPCModelTextFrame.backdrop then QuestNPCModelTextFrame.backdrop:Hide() end
+
+	local npcbd = CreateFrame("Frame", nil, QuestNPCModel)
+	npcbd:SetPoint("TOPLEFT", -1, 1)
+	npcbd:SetPoint("RIGHT", 2, 0)
+	npcbd:SetPoint("BOTTOM", QuestNPCModelTextScrollFrame)
+	npcbd:SetFrameLevel(0)
+	KS:CreateBD(npcbd)
+	npcbd:Styling()
+
+	local npcLine = CreateFrame("Frame", nil, QuestNPCModel)
+	npcLine:SetPoint("BOTTOMLEFT", 0, -1)
+	npcLine:SetPoint("BOTTOMRIGHT", 1, -1)
+	npcLine:SetHeight(1)
+	npcLine:SetFrameLevel(0)
+	KS:CreateBD(npcLine, 0)
+
+	-- Text Color
+	QuestNPCModelNameText:SetTextColor(1, 1, 1)
+	QuestNPCModelText:SetTextColor(1, 1, 1)
+
+	hooksecurefunc("QuestFrame_ShowQuestPortrait", function(parentFrame, _, _, _, _, x, y)
+		if parentFrame == QuestLogPopupDetailFrame or parentFrame == QuestFrame then
+			x = x + 3
+		end
+
+		QuestNPCModel:SetPoint("TOPLEFT", parentFrame, "TOPRIGHT", x, y)
+	end)
+
+	-- Text Color
+	QuestProgressRequiredItemsText:SetTextColor(1, 1, 1)
+	QuestProgressRequiredItemsText:SetShadowColor(0, 0, 0)
+	CurrentQuestsText:SetTextColor(1, 1, 1)
+	CurrentQuestsText.SetTextColor = KUI.dummy
+	CurrentQuestsText:SetShadowColor(0, 0, 0)
+	QuestProgressTitleText:SetTextColor(1, 1, 1)
+	QuestProgressTitleText:SetShadowColor(0, 0, 0)
+	QuestProgressTitleText.SetTextColor = KUI.dummy
+	QuestProgressText:SetTextColor(1, 1, 1)
+	QuestProgressText.SetTextColor = KUI.dummy
+	GreetingText:SetTextColor(1, 1, 1)
+	GreetingText.SetTextColor = KUI.dummy
+	AvailableQuestsText:SetTextColor(1, 1, 1)
+	AvailableQuestsText.SetTextColor = KUI.dummy
+	AvailableQuestsText:SetShadowColor(0, 0, 0)
+end
+
+S:AddCallback("KuiQuestFrame", styleQuestFrame)

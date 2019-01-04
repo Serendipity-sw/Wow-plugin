@@ -1,0 +1,26 @@
+{
+	"ipMap": [],
+	"version": "2.2.32",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/157/62/62/636141608867724105.jpg",
+			"name": "Pawn",
+			"fileName": "pawn",
+			"description": "Pawn"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/172/667/62/62/636738370421586170.png",
+			"name": "CaliahaGuildPawn",
+			"fileName": "caliahaguildpawn",
+			"description": "Shows other guildies pawn upgrade percents for gear."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/59/117/62/62/636141456181094726.jpg",
+			"name": "Auc-Advanced-Searcher-Pawn",
+			"fileName": "auc-advanced-searcher-pawn",
+			"description": "This addon helps you find better gear on the auction house (need AUCTIONEER-SUITE) using scales defined in PAWN."
+		}
+	],
+	"mapping": "Pawn"
+}

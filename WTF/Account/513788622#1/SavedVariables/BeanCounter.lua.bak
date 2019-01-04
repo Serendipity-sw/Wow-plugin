@@ -1,0 +1,54 @@
+
+BeanCounterDB = {
+	["纳克萨玛斯"] = {
+		["诗雨筱零"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+}
+BeanCounterDBSettings = {
+	["configator.left"] = 560.000122070313,
+	["columnsortcurSort"] = 1,
+	["columnsortcurDir"] = 1,
+	["纳克萨玛斯"] = {
+		["诗雨筱零"] = {
+			["tasks.sortArray"] = 1542030355,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1542030355,
+			["wealth"] = 441263615,
+			["tasks.prunePostedDB"] = 1542030355,
+			["mailbox"] = {
+			},
+		},
+	},
+	["util.beancounter.ButtonuseDateCheck"] = false,
+	["configator.top"] = 733.500061035156,
+}
+BeanCounterDBNames = {
+}
+BeanCounterAccountDB = nil
+BeanCounterMailPatch = nil

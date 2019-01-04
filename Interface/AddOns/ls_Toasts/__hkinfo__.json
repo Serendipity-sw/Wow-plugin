@@ -1,0 +1,38 @@
+{
+	"ipMap": [],
+	"version": "80100.01",
+	"mapping": "ls: Toasts",
+	"search": 0,
+	"searchList": [
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/874/62/62/636141700903749793.PNG",
+			"name": "ls: Toasts",
+			"fileName": "ls-toasts",
+			"description": "Replacement for default alert system. Better toasts, cheers!"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/169/751/62/62/636716886396104956.png",
+			"name": "rLST",
+			"fileName": "rlst",
+			"description": "Skin's Ls:toasts and adds various styles to the options"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/62/973/62/62/636142221723872767.png",
+			"name": "Loot Toasts",
+			"fileName": "loot-toasts",
+			"description": "Spawns toasts for looted items, money, and currencies."
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/61/247/62/62/636141619753071119.png",
+			"name": "MessageToaster",
+			"fileName": "messagetoaster",
+			"description": "Adds Pop-Up Toasts for Whisper Messages, as well as a notification sound"
+		},
+		{
+			"img": "https://media.forgecdn.net/avatars/thumbnails/119/840/62/62/636406080904503028.jpeg",
+			"name": "ls: Toasts - sqw",
+			"fileName": "ls-toasts-sqw",
+			"description": "Reskins ls: Toasts"
+		}
+	]
+}
